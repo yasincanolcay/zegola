@@ -1,0 +1,36 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.zegocloud.uikit.flutter.signal_plugin.zego_uikit_signaling_plugin-mergeReleaseResources-32:/values-v28/values-v28.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Samsung\\.gradle\\caches\\transforms-3\\220ce7807dedd1d0d45387dc914e901c\\transformed\\appcompat-1.5.1\\res\\values-v28\\values-v28.xml",
+                    "from": {
+                        "startLines": "2,3,4,8",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,130,217,397",
+                        "endLines": "2,3,7,11",
+                        "endColumns": "74,86,12,12",
+                        "endOffsets": "125,212,392,584"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.zegocloud.uikit.flutter.signal_plugin.zego_uikit_signaling_plugin-merged_res-34:/values-v28/values-v28.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Samsung\\.gradle\\caches\\transforms-3\\220ce7807dedd1d0d45387dc914e901c\\transformed\\appcompat-1.5.1\\res\\values-v28\\values-v28.xml",
+                    "from": {
+                        "startLines": "2,3,4,8",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,130,217,397",
+                        "endLines": "2,3,7,11",
+                        "endColumns": "74,86,12,12",
+                        "endOffsets": "125,212,392,584"
+                    }
+                }
+            ]
+        }
+    ]
+}

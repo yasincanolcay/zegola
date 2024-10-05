@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "696144686865",
+    "project_id": "zegola",
+    "storage_bucket": "zegola.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:696144686865:android:f268cebaf49a747008a6b0",
+        "android_client_info": {
+          "package_name": "com.devonesoft.app.zego_call_test"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA45FbxN1ge46yEZI9YAjj5ynd51W3vlcg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

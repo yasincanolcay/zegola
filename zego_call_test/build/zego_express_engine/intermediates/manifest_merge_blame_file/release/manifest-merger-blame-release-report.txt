@@ -1,0 +1,49 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="im.zego.zego_express_engine" >
+4
+5    <uses-sdk
+6        android:minSdkVersion="16"
+6-->C:\Users\Samsung\AppData\Local\Pub\Cache\hosted\pub.dev\zego_express_engine-3.16.0\android\src\main\AndroidManifest.xml
+7        android:targetSdkVersion="16" />
+7-->C:\Users\Samsung\AppData\Local\Pub\Cache\hosted\pub.dev\zego_express_engine-3.16.0\android\src\main\AndroidManifest.xml
+8
+9    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+9-->C:\Users\Samsung\AppData\Local\Pub\Cache\hosted\pub.dev\zego_express_engine-3.16.0\android\src\main\AndroidManifest.xml:3:3-74
+9-->C:\Users\Samsung\AppData\Local\Pub\Cache\hosted\pub.dev\zego_express_engine-3.16.0\android\src\main\AndroidManifest.xml:3:20-72
+10
+11    <application>
+11-->C:\Users\Samsung\AppData\Local\Pub\Cache\hosted\pub.dev\zego_express_engine-3.16.0\android\src\main\AndroidManifest.xml:5:3-21:17
+12        <activity
+12-->C:\Users\Samsung\AppData\Local\Pub\Cache\hosted\pub.dev\zego_express_engine-3.16.0\android\src\main\AndroidManifest.xml:6:5-11:60
+13            android:name="im.zego.internal.screencapture.ZegoScreenCaptureManager$ZegoScreenCaptureAssistantActivity"
+13-->C:\Users\Samsung\AppData\Local\Pub\Cache\hosted\pub.dev\zego_express_engine-3.16.0\android\src\main\AndroidManifest.xml:7:9-114
+14            android:configChanges="screenSize|orientation"
+14-->C:\Users\Samsung\AppData\Local\Pub\Cache\hosted\pub.dev\zego_express_engine-3.16.0\android\src\main\AndroidManifest.xml:9:9-55
+15            android:exported="false"
+15-->C:\Users\Samsung\AppData\Local\Pub\Cache\hosted\pub.dev\zego_express_engine-3.16.0\android\src\main\AndroidManifest.xml:8:9-33
+16            android:screenOrientation="fullUser"
+16-->C:\Users\Samsung\AppData\Local\Pub\Cache\hosted\pub.dev\zego_express_engine-3.16.0\android\src\main\AndroidManifest.xml:10:9-45
+17            android:theme="@android:style/Theme.Translucent" />
+17-->C:\Users\Samsung\AppData\Local\Pub\Cache\hosted\pub.dev\zego_express_engine-3.16.0\android\src\main\AndroidManifest.xml:11:9-57
+18
+19        <service
+19-->C:\Users\Samsung\AppData\Local\Pub\Cache\hosted\pub.dev\zego_express_engine-3.16.0\android\src\main\AndroidManifest.xml:12:5-20:15
+20            android:name="im.zego.internal.screencapture.ZegoScreenCaptureService"
+20-->C:\Users\Samsung\AppData\Local\Pub\Cache\hosted\pub.dev\zego_express_engine-3.16.0\android\src\main\AndroidManifest.xml:13:9-79
+21            android:enabled="true"
+21-->C:\Users\Samsung\AppData\Local\Pub\Cache\hosted\pub.dev\zego_express_engine-3.16.0\android\src\main\AndroidManifest.xml:14:9-31
+22            android:exported="false"
+22-->C:\Users\Samsung\AppData\Local\Pub\Cache\hosted\pub.dev\zego_express_engine-3.16.0\android\src\main\AndroidManifest.xml:15:9-33
+23            android:foregroundServiceType="mediaProjection" >
+23-->C:\Users\Samsung\AppData\Local\Pub\Cache\hosted\pub.dev\zego_express_engine-3.16.0\android\src\main\AndroidManifest.xml:16:9-56
+24            <intent-filter>
+24-->C:\Users\Samsung\AppData\Local\Pub\Cache\hosted\pub.dev\zego_express_engine-3.16.0\android\src\main\AndroidManifest.xml:17:9-19:25
+25                <action android:name="android.intent.action.screenshare" />
+25-->C:\Users\Samsung\AppData\Local\Pub\Cache\hosted\pub.dev\zego_express_engine-3.16.0\android\src\main\AndroidManifest.xml:18:13-72
+25-->C:\Users\Samsung\AppData\Local\Pub\Cache\hosted\pub.dev\zego_express_engine-3.16.0\android\src\main\AndroidManifest.xml:18:21-69
+26            </intent-filter>
+27        </service>
+28    </application>
+29
+30</manifest>

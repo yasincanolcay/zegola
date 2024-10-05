@@ -1,0 +1,16 @@
+io.flutter.plugins.firebase.firestore.cloud_firestore-jetified-window-java-1.0.0-beta04-0 C:\Users\Samsung\.gradle\caches\transforms-3\2f9f080e2bb0cffecc45f245f2053cbd\transformed\jetified-window-java-1.0.0-beta04\res
+io.flutter.plugins.firebase.firestore.cloud_firestore-jetified-play-services-basement-18.1.0-1 C:\Users\Samsung\.gradle\caches\transforms-3\6011f626cf32d1124e40965bf7a3647c\transformed\jetified-play-services-basement-18.1.0\res
+io.flutter.plugins.firebase.firestore.cloud_firestore-core-1.6.0-2 C:\Users\Samsung\.gradle\caches\transforms-3\62951aee7b733d4949db7586e532a4c0\transformed\core-1.6.0\res
+io.flutter.plugins.firebase.firestore.cloud_firestore-jetified-window-1.0.0-beta04-3 C:\Users\Samsung\.gradle\caches\transforms-3\6e92227e54e359c441cc86ea2dbc847e\transformed\jetified-window-1.0.0-beta04\res
+io.flutter.plugins.firebase.firestore.cloud_firestore-jetified-firebase-common-20.4.2-4 C:\Users\Samsung\.gradle\caches\transforms-3\a03b342155d2fe06ebf9977478021bf4\transformed\jetified-firebase-common-20.4.2\res
+io.flutter.plugins.firebase.firestore.cloud_firestore-jetified-play-services-base-18.0.1-5 C:\Users\Samsung\.gradle\caches\transforms-3\afd5ab762f0c3c484ada89a729bf0cb2\transformed\jetified-play-services-base-18.0.1\res
+io.flutter.plugins.firebase.firestore.cloud_firestore-jetified-annotation-experimental-1.1.0-6 C:\Users\Samsung\.gradle\caches\transforms-3\d58dd672128dc8a6c0836f8b0e99c08e\transformed\jetified-annotation-experimental-1.1.0\res
+io.flutter.plugins.firebase.firestore.cloud_firestore-main-7 C:\Users\Samsung\AppData\Local\Pub\Cache\hosted\pub.dev\cloud_firestore-4.14.0\android\src\main\res
+io.flutter.plugins.firebase.firestore.cloud_firestore-release-8 C:\Users\Samsung\AppData\Local\Pub\Cache\hosted\pub.dev\cloud_firestore-4.14.0\android\src\release\res
+io.flutter.plugins.firebase.firestore.cloud_firestore-pngs-9 C:\flutterprojelerim\zego_call_test\build\cloud_firestore\generated\res\pngs\release
+io.flutter.plugins.firebase.firestore.cloud_firestore-resValues-10 C:\flutterprojelerim\zego_call_test\build\cloud_firestore\generated\res\resValues\release
+io.flutter.plugins.firebase.firestore.cloud_firestore-rs-11 C:\flutterprojelerim\zego_call_test\build\cloud_firestore\generated\res\rs\release
+io.flutter.plugins.firebase.firestore.cloud_firestore-mergeReleaseResources-12 C:\flutterprojelerim\zego_call_test\build\cloud_firestore\intermediates\incremental\release\mergeReleaseResources\merged.dir
+io.flutter.plugins.firebase.firestore.cloud_firestore-mergeReleaseResources-13 C:\flutterprojelerim\zego_call_test\build\cloud_firestore\intermediates\incremental\release\mergeReleaseResources\stripped.dir
+io.flutter.plugins.firebase.firestore.cloud_firestore-merged_res-14 C:\flutterprojelerim\zego_call_test\build\cloud_firestore\intermediates\merged_res\release
+io.flutter.plugins.firebase.firestore.cloud_firestore-packaged_res-15 C:\flutterprojelerim\zego_call_test\build\firebase_core\intermediates\packaged_res\release

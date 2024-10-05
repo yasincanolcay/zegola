@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "com.devonesoft.app.zego_call_test.app-merged_res-58:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.devonesoft.app.zego_call_test.app-main-51:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.devonesoft.app.zego_call_test.app-merged_res-58:/drawable-v21_launch_background.xml.flat",
+        "source": "com.devonesoft.app.zego_call_test.app-main-51:/drawable-v21/launch_background.xml"
+    },
+    {
+        "merged": "com.devonesoft.app.zego_call_test.app-merged_res-58:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.devonesoft.app.zego_call_test.app-main-51:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.devonesoft.app.zego_call_test.app-merged_res-58:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.devonesoft.app.zego_call_test.app-main-51:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.devonesoft.app.zego_call_test.app-merged_res-58:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.devonesoft.app.zego_call_test.app-main-51:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.devonesoft.app.zego_call_test.app-merged_res-58:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.devonesoft.app.zego_call_test.app-main-51:/mipmap-xxxhdpi/ic_launcher.png"
+    }
+]

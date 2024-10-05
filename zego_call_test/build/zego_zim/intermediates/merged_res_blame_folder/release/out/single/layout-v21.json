@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "im.zego.zim_flutter.zego_zim-merged_res-10:/layout-v21/notification_template_icon_group.xml",
+        "source": "im.zego.zim_flutter.zego_zim-core-1.6.0-1:/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "im.zego.zim_flutter.zego_zim-merged_res-10:/layout-v21/notification_action.xml",
+        "source": "im.zego.zim_flutter.zego_zim-core-1.6.0-1:/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "im.zego.zim_flutter.zego_zim-merged_res-10:/layout-v21/notification_action_tombstone.xml",
+        "source": "im.zego.zim_flutter.zego_zim-core-1.6.0-1:/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "im.zego.zim_flutter.zego_zim-merged_res-10:/layout-v21/notification_template_custom_big.xml",
+        "source": "im.zego.zim_flutter.zego_zim-core-1.6.0-1:/layout-v21/notification_template_custom_big.xml"
+    }
+]

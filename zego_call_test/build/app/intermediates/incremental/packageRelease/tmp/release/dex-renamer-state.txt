@@ -1,0 +1,7 @@
+#Thu Oct 03 01:33:04 TRT 2024
+base.0=C\:\\flutterprojelerim\\zego_call_test\\build\\app\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
+base.1=C\:\\flutterprojelerim\\zego_call_test\\build\\app\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes2.dex
+path.0=classes.dex
+path.1=classes2.dex
+renamed.0=classes.dex
+renamed.1=classes2.dex

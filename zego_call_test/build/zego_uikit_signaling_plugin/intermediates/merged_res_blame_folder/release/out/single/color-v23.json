@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "com.zegocloud.uikit.flutter.signal_plugin.zego_uikit_signaling_plugin-merged_res-34:/color-v23/abc_tint_switch_track.xml",
+        "source": "com.zegocloud.uikit.flutter.signal_plugin.zego_uikit_signaling_plugin-appcompat-1.5.1-7:/color-v23/abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "com.zegocloud.uikit.flutter.signal_plugin.zego_uikit_signaling_plugin-merged_res-34:/color-v23/abc_tint_btn_checkable.xml",
+        "source": "com.zegocloud.uikit.flutter.signal_plugin.zego_uikit_signaling_plugin-appcompat-1.5.1-7:/color-v23/abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "com.zegocloud.uikit.flutter.signal_plugin.zego_uikit_signaling_plugin-merged_res-34:/color-v23/abc_btn_colored_borderless_text_material.xml",
+        "source": "com.zegocloud.uikit.flutter.signal_plugin.zego_uikit_signaling_plugin-appcompat-1.5.1-7:/color-v23/abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "com.zegocloud.uikit.flutter.signal_plugin.zego_uikit_signaling_plugin-merged_res-34:/color-v23/abc_tint_spinner.xml",
+        "source": "com.zegocloud.uikit.flutter.signal_plugin.zego_uikit_signaling_plugin-appcompat-1.5.1-7:/color-v23/abc_tint_spinner.xml"
+    },
+    {
+        "merged": "com.zegocloud.uikit.flutter.signal_plugin.zego_uikit_signaling_plugin-merged_res-34:/color-v23/abc_tint_edittext.xml",
+        "source": "com.zegocloud.uikit.flutter.signal_plugin.zego_uikit_signaling_plugin-appcompat-1.5.1-7:/color-v23/abc_tint_edittext.xml"
+    },
+    {
+        "merged": "com.zegocloud.uikit.flutter.signal_plugin.zego_uikit_signaling_plugin-merged_res-34:/color-v23/abc_tint_seek_thumb.xml",
+        "source": "com.zegocloud.uikit.flutter.signal_plugin.zego_uikit_signaling_plugin-appcompat-1.5.1-7:/color-v23/abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "com.zegocloud.uikit.flutter.signal_plugin.zego_uikit_signaling_plugin-merged_res-34:/color-v23/abc_color_highlight_material.xml",
+        "source": "com.zegocloud.uikit.flutter.signal_plugin.zego_uikit_signaling_plugin-appcompat-1.5.1-7:/color-v23/abc_color_highlight_material.xml"
+    },
+    {
+        "merged": "com.zegocloud.uikit.flutter.signal_plugin.zego_uikit_signaling_plugin-merged_res-34:/color-v23/abc_btn_colored_text_material.xml",
+        "source": "com.zegocloud.uikit.flutter.signal_plugin.zego_uikit_signaling_plugin-appcompat-1.5.1-7:/color-v23/abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "com.zegocloud.uikit.flutter.signal_plugin.zego_uikit_signaling_plugin-merged_res-34:/color-v23/abc_tint_default.xml",
+        "source": "com.zegocloud.uikit.flutter.signal_plugin.zego_uikit_signaling_plugin-appcompat-1.5.1-7:/color-v23/abc_tint_default.xml"
+    }
+]

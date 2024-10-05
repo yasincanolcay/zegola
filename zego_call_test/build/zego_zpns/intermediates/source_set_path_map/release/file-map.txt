@@ -1,0 +1,14 @@
+im.zego.zpns_flutter.zego_zpns-jetified-window-java-1.0.0-beta04-0 C:\Users\Samsung\.gradle\caches\transforms-3\2f9f080e2bb0cffecc45f245f2053cbd\transformed\jetified-window-java-1.0.0-beta04\res
+im.zego.zpns_flutter.zego_zpns-jetified-zpns-2.4.0-1 C:\Users\Samsung\.gradle\caches\transforms-3\3d9df55f0043a4c93771c8c8330e388b\transformed\jetified-zpns-2.4.0\res
+im.zego.zpns_flutter.zego_zpns-localbroadcastmanager-1.1.0-2 C:\Users\Samsung\.gradle\caches\transforms-3\54076cc63b6e908b8896d2a42be3f54c\transformed\localbroadcastmanager-1.1.0\res
+im.zego.zpns_flutter.zego_zpns-core-1.6.0-3 C:\Users\Samsung\.gradle\caches\transforms-3\62951aee7b733d4949db7586e532a4c0\transformed\core-1.6.0\res
+im.zego.zpns_flutter.zego_zpns-jetified-window-1.0.0-beta04-4 C:\Users\Samsung\.gradle\caches\transforms-3\6e92227e54e359c441cc86ea2dbc847e\transformed\jetified-window-1.0.0-beta04\res
+im.zego.zpns_flutter.zego_zpns-jetified-annotation-experimental-1.1.0-5 C:\Users\Samsung\.gradle\caches\transforms-3\d58dd672128dc8a6c0836f8b0e99c08e\transformed\jetified-annotation-experimental-1.1.0\res
+im.zego.zpns_flutter.zego_zpns-main-6 C:\Users\Samsung\AppData\Local\Pub\Cache\hosted\pub.dev\zego_zpns-2.4.0\android\src\main\res
+im.zego.zpns_flutter.zego_zpns-release-7 C:\Users\Samsung\AppData\Local\Pub\Cache\hosted\pub.dev\zego_zpns-2.4.0\android\src\release\res
+im.zego.zpns_flutter.zego_zpns-pngs-8 C:\flutterprojelerim\zego_call_test\build\zego_zpns\generated\res\pngs\release
+im.zego.zpns_flutter.zego_zpns-resValues-9 C:\flutterprojelerim\zego_call_test\build\zego_zpns\generated\res\resValues\release
+im.zego.zpns_flutter.zego_zpns-rs-10 C:\flutterprojelerim\zego_call_test\build\zego_zpns\generated\res\rs\release
+im.zego.zpns_flutter.zego_zpns-mergeReleaseResources-11 C:\flutterprojelerim\zego_call_test\build\zego_zpns\intermediates\incremental\release\mergeReleaseResources\merged.dir
+im.zego.zpns_flutter.zego_zpns-mergeReleaseResources-12 C:\flutterprojelerim\zego_call_test\build\zego_zpns\intermediates\incremental\release\mergeReleaseResources\stripped.dir
+im.zego.zpns_flutter.zego_zpns-merged_res-13 C:\flutterprojelerim\zego_call_test\build\zego_zpns\intermediates\merged_res\release

@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "flutter.plugins.vibrate.flutter_vibrate-merged_res-10:/layout/notification_action_tombstone.xml",
+        "source": "flutter.plugins.vibrate.flutter_vibrate-core-1.6.0-1:/layout/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "flutter.plugins.vibrate.flutter_vibrate-merged_res-10:/layout/custom_dialog.xml",
+        "source": "flutter.plugins.vibrate.flutter_vibrate-core-1.6.0-1:/layout/custom_dialog.xml"
+    },
+    {
+        "merged": "flutter.plugins.vibrate.flutter_vibrate-merged_res-10:/layout/notification_action.xml",
+        "source": "flutter.plugins.vibrate.flutter_vibrate-core-1.6.0-1:/layout/notification_action.xml"
+    },
+    {
+        "merged": "flutter.plugins.vibrate.flutter_vibrate-merged_res-10:/layout/notification_template_part_chronometer.xml",
+        "source": "flutter.plugins.vibrate.flutter_vibrate-core-1.6.0-1:/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "flutter.plugins.vibrate.flutter_vibrate-merged_res-10:/layout/notification_template_icon_group.xml",
+        "source": "flutter.plugins.vibrate.flutter_vibrate-core-1.6.0-1:/layout/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "flutter.plugins.vibrate.flutter_vibrate-merged_res-10:/layout/notification_template_part_time.xml",
+        "source": "flutter.plugins.vibrate.flutter_vibrate-core-1.6.0-1:/layout/notification_template_part_time.xml"
+    }
+]

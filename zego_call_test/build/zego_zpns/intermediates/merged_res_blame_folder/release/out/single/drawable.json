@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "im.zego.zpns_flutter.zego_zpns-merged_res-12:/drawable/notification_icon_background.xml",
+        "source": "im.zego.zpns_flutter.zego_zpns-core-1.6.0-3:/drawable/notification_icon_background.xml"
+    },
+    {
+        "merged": "im.zego.zpns_flutter.zego_zpns-merged_res-12:/drawable/notification_tile_bg.xml",
+        "source": "im.zego.zpns_flutter.zego_zpns-core-1.6.0-3:/drawable/notification_tile_bg.xml"
+    },
+    {
+        "merged": "im.zego.zpns_flutter.zego_zpns-merged_res-12:/drawable/notification_bg_low.xml",
+        "source": "im.zego.zpns_flutter.zego_zpns-core-1.6.0-3:/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "im.zego.zpns_flutter.zego_zpns-merged_res-12:/drawable/notification_bg.xml",
+        "source": "im.zego.zpns_flutter.zego_zpns-core-1.6.0-3:/drawable/notification_bg.xml"
+    }
+]

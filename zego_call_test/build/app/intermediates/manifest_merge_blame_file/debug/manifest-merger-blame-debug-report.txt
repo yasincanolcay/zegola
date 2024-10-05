@@ -1,0 +1,1192 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.devonesoft.app.zego_call_test"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="34" />
+10    <!--
+11         The INTERNET permission is required for development. Specifically,
+12         the Flutter tool needs it to communicate with the running application
+13         to allow setting breakpoints, to provide hot reload, etc.
+14    -->
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->C:\flutterprojelerim\zego_call_test\android\app\src\main\AndroidManifest.xml:2:5-67
+15-->C:\flutterprojelerim\zego_call_test\android\app\src\main\AndroidManifest.xml:2:22-64
+16    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+16-->C:\flutterprojelerim\zego_call_test\android\app\src\main\AndroidManifest.xml:3:5-76
+16-->C:\flutterprojelerim\zego_call_test\android\app\src\main\AndroidManifest.xml:3:22-73
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->C:\flutterprojelerim\zego_call_test\android\app\src\main\AndroidManifest.xml:4:5-79
+17-->C:\flutterprojelerim\zego_call_test\android\app\src\main\AndroidManifest.xml:4:22-76
+18    <uses-permission android:name="android.permission.BLUETOOTH" />
+18-->C:\flutterprojelerim\zego_call_test\android\app\src\main\AndroidManifest.xml:5:5-68
+18-->C:\flutterprojelerim\zego_call_test\android\app\src\main\AndroidManifest.xml:5:22-65
+19    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+19-->C:\flutterprojelerim\zego_call_test\android\app\src\main\AndroidManifest.xml:6:5-75
+19-->C:\flutterprojelerim\zego_call_test\android\app\src\main\AndroidManifest.xml:6:22-73
+20    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+20-->C:\flutterprojelerim\zego_call_test\android\app\src\main\AndroidManifest.xml:7:5-71
+20-->C:\flutterprojelerim\zego_call_test\android\app\src\main\AndroidManifest.xml:7:22-68
+21    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+21-->C:\flutterprojelerim\zego_call_test\android\app\src\main\AndroidManifest.xml:8:5-80
+21-->C:\flutterprojelerim\zego_call_test\android\app\src\main\AndroidManifest.xml:8:22-77
+22    <uses-permission android:name="android.permission.CAMERA" />
+22-->C:\flutterprojelerim\zego_call_test\android\app\src\main\AndroidManifest.xml:9:5-65
+22-->C:\flutterprojelerim\zego_call_test\android\app\src\main\AndroidManifest.xml:9:22-62
+23    <uses-permission android:name="android.permission.WAKE_LOCK" />
+23-->C:\flutterprojelerim\zego_call_test\android\app\src\main\AndroidManifest.xml:11:5-68
+23-->C:\flutterprojelerim\zego_call_test\android\app\src\main\AndroidManifest.xml:11:22-65
+24    <uses-permission android:name="android.permission.VIBRATE" />
+24-->C:\flutterprojelerim\zego_call_test\android\app\src\main\AndroidManifest.xml:12:5-65
+24-->C:\flutterprojelerim\zego_call_test\android\app\src\main\AndroidManifest.xml:12:22-63
+25    <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY" />
+25-->C:\flutterprojelerim\zego_call_test\android\app\src\main\AndroidManifest.xml:14:5-84
+25-->C:\flutterprojelerim\zego_call_test\android\app\src\main\AndroidManifest.xml:14:22-82
+26    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" /> <!-- for bring app to foreground from background in Android 10 -->
+26-->C:\flutterprojelerim\zego_call_test\android\app\src\main\AndroidManifest.xml:15:5-76
+26-->C:\flutterprojelerim\zego_call_test\android\app\src\main\AndroidManifest.xml:15:22-74
+27    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+27-->C:\flutterprojelerim\zego_call_test\android\app\src\main\AndroidManifest.xml:17:5-78
+27-->C:\flutterprojelerim\zego_call_test\android\app\src\main\AndroidManifest.xml:17:22-75
+28    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+28-->[:file_picker] C:\flutterprojelerim\zego_call_test\build\file_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-80
+28-->[:file_picker] C:\flutterprojelerim\zego_call_test\build\file_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-77
+29
+30    <queries>
+30-->[:file_picker] C:\flutterprojelerim\zego_call_test\build\file_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:11:5-17:15
+31        <intent>
+31-->[:file_picker] C:\flutterprojelerim\zego_call_test\build\file_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:12:9-16:18
+32            <action android:name="android.intent.action.GET_CONTENT" />
+32-->[:file_picker] C:\flutterprojelerim\zego_call_test\build\file_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-72
+32-->[:file_picker] C:\flutterprojelerim\zego_call_test\build\file_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:13:21-69
+33
+34            <data android:mimeType="*/*" />
+34-->[:file_picker] C:\flutterprojelerim\zego_call_test\build\file_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-44
+34-->[:file_picker] C:\flutterprojelerim\zego_call_test\build\file_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:15:19-41
+35        </intent>
+36        <intent>
+36-->[im.zego:zpns:2.4.0] C:\Users\Samsung\.gradle\caches\transforms-3\3d9df55f0043a4c93771c8c8330e388b\transformed\jetified-zpns-2.4.0\AndroidManifest.xml:18:9-20:18
+37            <action android:name="com.huawei.hms.core.aidlservice" />
+37-->[im.zego:zpns:2.4.0] C:\Users\Samsung\.gradle\caches\transforms-3\3d9df55f0043a4c93771c8c8330e388b\transformed\jetified-zpns-2.4.0\AndroidManifest.xml:19:13-70
+37-->[im.zego:zpns:2.4.0] C:\Users\Samsung\.gradle\caches\transforms-3\3d9df55f0043a4c93771c8c8330e388b\transformed\jetified-zpns-2.4.0\AndroidManifest.xml:19:21-67
+38        </intent>
+39    </queries>
+40
+41    <uses-permission android:name="android.permission.BROADCAST_CLOSE_SYSTEM_DIALOGS" />
+41-->[:awesome_notifications] C:\flutterprojelerim\zego_call_test\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-89
+41-->[:awesome_notifications] C:\flutterprojelerim\zego_call_test\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:10:22-86
+42    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+42-->[:awesome_notifications] C:\flutterprojelerim\zego_call_test\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:11:5-81
+42-->[:awesome_notifications] C:\flutterprojelerim\zego_call_test\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:11:22-78
+43    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+43-->[:zego_express_engine] C:\flutterprojelerim\zego_call_test\build\zego_express_engine\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-77
+43-->[:zego_express_engine] C:\flutterprojelerim\zego_call_test\build\zego_express_engine\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-74
+44    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+44-->[:flutter_callkit_incoming] C:\flutterprojelerim\zego_call_test\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-81
+44-->[:flutter_callkit_incoming] C:\flutterprojelerim\zego_call_test\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-78
+45    <uses-permission android:name="android.permission.MANAGE_OWN_CALLS" />
+45-->[:flutter_callkit_incoming] C:\flutterprojelerim\zego_call_test\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:15:5-75
+45-->[:flutter_callkit_incoming] C:\flutterprojelerim\zego_call_test\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:15:22-72
+46    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+46-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\Samsung\.gradle\caches\transforms-3\35e8be93d91b10c6a45eb33c436a489a\transformed\jetified-play-services-measurement-api-21.5.0\AndroidManifest.xml:25:5-79
+46-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\Samsung\.gradle\caches\transforms-3\35e8be93d91b10c6a45eb33c436a489a\transformed\jetified-play-services-measurement-api-21.5.0\AndroidManifest.xml:25:22-76
+47    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_ATTRIBUTION" />
+47-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\Samsung\.gradle\caches\transforms-3\35e8be93d91b10c6a45eb33c436a489a\transformed\jetified-play-services-measurement-api-21.5.0\AndroidManifest.xml:26:5-88
+47-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\Samsung\.gradle\caches\transforms-3\35e8be93d91b10c6a45eb33c436a489a\transformed\jetified-play-services-measurement-api-21.5.0\AndroidManifest.xml:26:22-85
+48    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_AD_ID" />
+48-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\Samsung\.gradle\caches\transforms-3\35e8be93d91b10c6a45eb33c436a489a\transformed\jetified-play-services-measurement-api-21.5.0\AndroidManifest.xml:27:5-82
+48-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\Samsung\.gradle\caches\transforms-3\35e8be93d91b10c6a45eb33c436a489a\transformed\jetified-play-services-measurement-api-21.5.0\AndroidManifest.xml:27:22-79
+49    <uses-permission
+49-->[me.carda:AndroidAwnCore:0.7.6] C:\Users\Samsung\.gradle\caches\transforms-3\46372a44808f62a0de9674f23797c98c\transformed\jetified-AndroidAwnCore-0.7.6\AndroidManifest.xml:10:5-12:38
+50        android:name="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE"
+50-->[me.carda:AndroidAwnCore:0.7.6] C:\Users\Samsung\.gradle\caches\transforms-3\46372a44808f62a0de9674f23797c98c\transformed\jetified-AndroidAwnCore-0.7.6\AndroidManifest.xml:11:9-77
+51        android:maxSdkVersion="22" />
+51-->[me.carda:AndroidAwnCore:0.7.6] C:\Users\Samsung\.gradle\caches\transforms-3\46372a44808f62a0de9674f23797c98c\transformed\jetified-AndroidAwnCore-0.7.6\AndroidManifest.xml:12:9-35
+52    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+52-->[com.github.umair13adil:RxLogs:1.0.20] C:\Users\Samsung\.gradle\caches\transforms-3\ff395352679ccc8c8a09d18e71e7f328\transformed\jetified-RxLogs-1.0.20\AndroidManifest.xml:13:5-75
+52-->[com.github.umair13adil:RxLogs:1.0.20] C:\Users\Samsung\.gradle\caches\transforms-3\ff395352679ccc8c8a09d18e71e7f328\transformed\jetified-RxLogs-1.0.20\AndroidManifest.xml:13:22-72
+53    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+53-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\Samsung\.gradle\caches\transforms-3\7eebed0f9e9239e142f485bb37ade13e\transformed\jetified-play-services-measurement-21.5.0\AndroidManifest.xml:26:5-110
+53-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\Samsung\.gradle\caches\transforms-3\7eebed0f9e9239e142f485bb37ade13e\transformed\jetified-play-services-measurement-21.5.0\AndroidManifest.xml:26:22-107
+54
+55    <permission
+55-->[androidx.core:core:1.10.1] C:\Users\Samsung\.gradle\caches\transforms-3\22a121d2dbe7df2345de520e8ac8c091\transformed\core-1.10.1\AndroidManifest.xml:22:5-24:47
+56        android:name="com.devonesoft.app.zego_call_test.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+56-->[androidx.core:core:1.10.1] C:\Users\Samsung\.gradle\caches\transforms-3\22a121d2dbe7df2345de520e8ac8c091\transformed\core-1.10.1\AndroidManifest.xml:23:9-81
+57        android:protectionLevel="signature" />
+57-->[androidx.core:core:1.10.1] C:\Users\Samsung\.gradle\caches\transforms-3\22a121d2dbe7df2345de520e8ac8c091\transformed\core-1.10.1\AndroidManifest.xml:24:9-44
+58
+59    <uses-permission android:name="com.devonesoft.app.zego_call_test.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+59-->[androidx.core:core:1.10.1] C:\Users\Samsung\.gradle\caches\transforms-3\22a121d2dbe7df2345de520e8ac8c091\transformed\core-1.10.1\AndroidManifest.xml:26:5-97
+59-->[androidx.core:core:1.10.1] C:\Users\Samsung\.gradle\caches\transforms-3\22a121d2dbe7df2345de520e8ac8c091\transformed\core-1.10.1\AndroidManifest.xml:26:22-94
+60    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+60-->[im.zego:zpns:2.4.0] C:\Users\Samsung\.gradle\caches\transforms-3\3d9df55f0043a4c93771c8c8330e388b\transformed\jetified-zpns-2.4.0\AndroidManifest.xml:9:5-81
+60-->[im.zego:zpns:2.4.0] C:\Users\Samsung\.gradle\caches\transforms-3\3d9df55f0043a4c93771c8c8330e388b\transformed\jetified-zpns-2.4.0\AndroidManifest.xml:9:22-78
+61    <uses-permission android:name="android.permission.GET_TASKS" /> <!-- for android -->
+61-->[im.zego:zpns:2.4.0] C:\Users\Samsung\.gradle\caches\transforms-3\3d9df55f0043a4c93771c8c8330e388b\transformed\jetified-zpns-2.4.0\AndroidManifest.xml:14:5-68
+61-->[im.zego:zpns:2.4.0] C:\Users\Samsung\.gradle\caches\transforms-3\3d9df55f0043a4c93771c8c8330e388b\transformed\jetified-zpns-2.4.0\AndroidManifest.xml:14:22-65
+62    <!-- <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/> -->
+63    <!-- <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS"/> -->
+64    <!-- <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" /> -->
+65    <!-- <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" /> -->
+66    <!-- for Samsung -->
+67    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+67-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Samsung\.gradle\caches\transforms-3\1c69e18c8ed2b0877c33384d1a4d1427\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:19:5-86
+67-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Samsung\.gradle\caches\transforms-3\1c69e18c8ed2b0877c33384d1a4d1427\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:19:22-83
+68    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- for htc -->
+68-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Samsung\.gradle\caches\transforms-3\1c69e18c8ed2b0877c33384d1a4d1427\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:20:5-87
+68-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Samsung\.gradle\caches\transforms-3\1c69e18c8ed2b0877c33384d1a4d1427\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:20:22-84
+69    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+69-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Samsung\.gradle\caches\transforms-3\1c69e18c8ed2b0877c33384d1a4d1427\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:23:5-81
+69-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Samsung\.gradle\caches\transforms-3\1c69e18c8ed2b0877c33384d1a4d1427\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:23:22-78
+70    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- for sony -->
+70-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Samsung\.gradle\caches\transforms-3\1c69e18c8ed2b0877c33384d1a4d1427\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:24:5-83
+70-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Samsung\.gradle\caches\transforms-3\1c69e18c8ed2b0877c33384d1a4d1427\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:24:22-80
+71    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+71-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Samsung\.gradle\caches\transforms-3\1c69e18c8ed2b0877c33384d1a4d1427\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:27:5-88
+71-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Samsung\.gradle\caches\transforms-3\1c69e18c8ed2b0877c33384d1a4d1427\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:27:22-85
+72    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- for apex -->
+72-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Samsung\.gradle\caches\transforms-3\1c69e18c8ed2b0877c33384d1a4d1427\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:28:5-92
+72-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Samsung\.gradle\caches\transforms-3\1c69e18c8ed2b0877c33384d1a4d1427\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:28:22-89
+73    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- for solid -->
+73-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Samsung\.gradle\caches\transforms-3\1c69e18c8ed2b0877c33384d1a4d1427\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:31:5-84
+73-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Samsung\.gradle\caches\transforms-3\1c69e18c8ed2b0877c33384d1a4d1427\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:31:22-81
+74    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" /> <!-- for huawei -->
+74-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Samsung\.gradle\caches\transforms-3\1c69e18c8ed2b0877c33384d1a4d1427\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:34:5-83
+74-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Samsung\.gradle\caches\transforms-3\1c69e18c8ed2b0877c33384d1a4d1427\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:34:22-80
+75    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+75-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Samsung\.gradle\caches\transforms-3\1c69e18c8ed2b0877c33384d1a4d1427\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:37:5-91
+75-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Samsung\.gradle\caches\transforms-3\1c69e18c8ed2b0877c33384d1a4d1427\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:37:22-88
+76    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+76-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Samsung\.gradle\caches\transforms-3\1c69e18c8ed2b0877c33384d1a4d1427\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:38:5-92
+76-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Samsung\.gradle\caches\transforms-3\1c69e18c8ed2b0877c33384d1a4d1427\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:38:22-89
+77    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" /> <!-- for ZUK -->
+77-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Samsung\.gradle\caches\transforms-3\1c69e18c8ed2b0877c33384d1a4d1427\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:39:5-93
+77-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Samsung\.gradle\caches\transforms-3\1c69e18c8ed2b0877c33384d1a4d1427\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:39:22-90
+78    <uses-permission android:name="android.permission.READ_APP_BADGE" /> <!-- for OPPO -->
+78-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Samsung\.gradle\caches\transforms-3\1c69e18c8ed2b0877c33384d1a4d1427\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:42:5-73
+78-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Samsung\.gradle\caches\transforms-3\1c69e18c8ed2b0877c33384d1a4d1427\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:42:22-70
+79    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
+79-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Samsung\.gradle\caches\transforms-3\1c69e18c8ed2b0877c33384d1a4d1427\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:45:5-82
+79-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Samsung\.gradle\caches\transforms-3\1c69e18c8ed2b0877c33384d1a4d1427\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:45:22-79
+80    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- for EvMe -->
+80-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Samsung\.gradle\caches\transforms-3\1c69e18c8ed2b0877c33384d1a4d1427\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:46:5-83
+80-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Samsung\.gradle\caches\transforms-3\1c69e18c8ed2b0877c33384d1a4d1427\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:46:22-80
+81    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
+81-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Samsung\.gradle\caches\transforms-3\1c69e18c8ed2b0877c33384d1a4d1427\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:49:5-88
+81-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Samsung\.gradle\caches\transforms-3\1c69e18c8ed2b0877c33384d1a4d1427\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:49:22-85
+82    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
+82-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Samsung\.gradle\caches\transforms-3\1c69e18c8ed2b0877c33384d1a4d1427\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:50:5-89
+82-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\Samsung\.gradle\caches\transforms-3\1c69e18c8ed2b0877c33384d1a4d1427\transformed\jetified-ShortcutBadger-1.1.22\AndroidManifest.xml:50:22-86
+83
+84    <application
+85        android:name="android.app.Application"
+86        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+86-->[androidx.core:core:1.10.1] C:\Users\Samsung\.gradle\caches\transforms-3\22a121d2dbe7df2345de520e8ac8c091\transformed\core-1.10.1\AndroidManifest.xml:28:18-86
+87        android:debuggable="true"
+88        android:icon="@mipmap/ic_launcher"
+89        android:label="zego_call_test" >
+90        <activity
+91            android:name="com.devonesoft.app.zego_call_test.MainActivity"
+92            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+93            android:exported="true"
+94            android:hardwareAccelerated="true"
+95            android:launchMode="singleTop"
+96            android:theme="@style/LaunchTheme"
+97            android:windowSoftInputMode="adjustResize" >
+98
+99            <!--
+100                 Specifies an Android theme to apply to this Activity as soon as
+101                 the Android process has started. This theme is visible to the user
+102                 while the Flutter UI initializes. After that, this theme continues
+103                 to determine the Window background behind the Flutter UI.
+104            -->
+105            <meta-data
+106                android:name="io.flutter.embedding.android.NormalTheme"
+107                android:resource="@style/NormalTheme" />
+108
+109            <intent-filter>
+110                <action android:name="android.intent.action.MAIN" />
+111
+112                <category android:name="android.intent.category.LAUNCHER" />
+113            </intent-filter>
+114        </activity>
+115        <activity
+116            android:name="com.yalantis.ucrop.UCropActivity"
+117            android:screenOrientation="portrait"
+118            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+119        <!--
+120             Don't delete the meta-data below.
+121             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+122        -->
+123        <meta-data
+124            android:name="flutterEmbedding"
+125            android:value="2" />
+126
+127        <service
+127-->[:cloud_firestore] C:\flutterprojelerim\zego_call_test\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-14:19
+128            android:name="com.google.firebase.components.ComponentDiscoveryService"
+128-->[:cloud_firestore] C:\flutterprojelerim\zego_call_test\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:10:18-89
+129            android:directBootAware="true"
+129-->[com.google.firebase:firebase-common:20.4.2] C:\Users\Samsung\.gradle\caches\transforms-3\a03b342155d2fe06ebf9977478021bf4\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:32:13-43
+130            android:exported="false" >
+130-->[com.google.firebase:firebase-analytics-ktx:21.5.0] C:\Users\Samsung\.gradle\caches\transforms-3\aee80b141f5bce4618628e122b01d9f5\transformed\jetified-firebase-analytics-ktx-21.5.0\AndroidManifest.xml:10:13-37
+131            <meta-data
+131-->[:cloud_firestore] C:\flutterprojelerim\zego_call_test\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
+132                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
+132-->[:cloud_firestore] C:\flutterprojelerim\zego_call_test\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-134
+133                android:value="com.google.firebase.components.ComponentRegistrar" />
+133-->[:cloud_firestore] C:\flutterprojelerim\zego_call_test\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
+134            <meta-data
+134-->[:firebase_auth] C:\flutterprojelerim\zego_call_test\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
+135                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
+135-->[:firebase_auth] C:\flutterprojelerim\zego_call_test\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-124
+136                android:value="com.google.firebase.components.ComponentRegistrar" />
+136-->[:firebase_auth] C:\flutterprojelerim\zego_call_test\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
+137            <meta-data
+137-->[:firebase_storage] C:\flutterprojelerim\zego_call_test\build\firebase_storage\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
+138                android:name="com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar"
+138-->[:firebase_storage] C:\flutterprojelerim\zego_call_test\build\firebase_storage\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-126
+139                android:value="com.google.firebase.components.ComponentRegistrar" />
+139-->[:firebase_storage] C:\flutterprojelerim\zego_call_test\build\firebase_storage\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
+140            <meta-data
+140-->[:firebase_core] C:\flutterprojelerim\zego_call_test\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
+141                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+141-->[:firebase_core] C:\flutterprojelerim\zego_call_test\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-124
+142                android:value="com.google.firebase.components.ComponentRegistrar" />
+142-->[:firebase_core] C:\flutterprojelerim\zego_call_test\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
+143            <meta-data
+143-->[com.google.firebase:firebase-analytics-ktx:21.5.0] C:\Users\Samsung\.gradle\caches\transforms-3\aee80b141f5bce4618628e122b01d9f5\transformed\jetified-firebase-analytics-ktx-21.5.0\AndroidManifest.xml:11:13-13:85
+144                android:name="com.google.firebase.components:com.google.firebase.analytics.ktx.FirebaseAnalyticsLegacyRegistrar"
+144-->[com.google.firebase:firebase-analytics-ktx:21.5.0] C:\Users\Samsung\.gradle\caches\transforms-3\aee80b141f5bce4618628e122b01d9f5\transformed\jetified-firebase-analytics-ktx-21.5.0\AndroidManifest.xml:12:17-129
+145                android:value="com.google.firebase.components.ComponentRegistrar" />
+145-->[com.google.firebase:firebase-analytics-ktx:21.5.0] C:\Users\Samsung\.gradle\caches\transforms-3\aee80b141f5bce4618628e122b01d9f5\transformed\jetified-firebase-analytics-ktx-21.5.0\AndroidManifest.xml:13:17-82
+146            <meta-data
+146-->[com.google.firebase:firebase-firestore:24.9.1] C:\Users\Samsung\.gradle\caches\transforms-3\9db73e31232b5e5cf5819aa5416eb376\transformed\jetified-firebase-firestore-24.9.1\AndroidManifest.xml:17:13-19:85
+147                android:name="com.google.firebase.components:com.google.firebase.firestore.FirebaseFirestoreKtxRegistrar"
+147-->[com.google.firebase:firebase-firestore:24.9.1] C:\Users\Samsung\.gradle\caches\transforms-3\9db73e31232b5e5cf5819aa5416eb376\transformed\jetified-firebase-firestore-24.9.1\AndroidManifest.xml:18:17-122
+148                android:value="com.google.firebase.components.ComponentRegistrar" />
+148-->[com.google.firebase:firebase-firestore:24.9.1] C:\Users\Samsung\.gradle\caches\transforms-3\9db73e31232b5e5cf5819aa5416eb376\transformed\jetified-firebase-firestore-24.9.1\AndroidManifest.xml:19:17-82
+149            <meta-data
+149-->[com.google.firebase:firebase-firestore:24.9.1] C:\Users\Samsung\.gradle\caches\transforms-3\9db73e31232b5e5cf5819aa5416eb376\transformed\jetified-firebase-firestore-24.9.1\AndroidManifest.xml:20:13-22:85
+150                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+150-->[com.google.firebase:firebase-firestore:24.9.1] C:\Users\Samsung\.gradle\caches\transforms-3\9db73e31232b5e5cf5819aa5416eb376\transformed\jetified-firebase-firestore-24.9.1\AndroidManifest.xml:21:17-111
+151                android:value="com.google.firebase.components.ComponentRegistrar" />
+151-->[com.google.firebase:firebase-firestore:24.9.1] C:\Users\Samsung\.gradle\caches\transforms-3\9db73e31232b5e5cf5819aa5416eb376\transformed\jetified-firebase-firestore-24.9.1\AndroidManifest.xml:22:17-82
+152            <meta-data
+152-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\Samsung\.gradle\caches\transforms-3\017ea1f8b5708855a1e753fabc4eae4d\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:69:13-71:85
+153                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+153-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\Samsung\.gradle\caches\transforms-3\017ea1f8b5708855a1e753fabc4eae4d\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:70:17-109
+154                android:value="com.google.firebase.components.ComponentRegistrar" />
+154-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\Samsung\.gradle\caches\transforms-3\017ea1f8b5708855a1e753fabc4eae4d\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:71:17-82
+155            <meta-data
+155-->[com.google.firebase:firebase-storage:20.3.0] C:\Users\Samsung\.gradle\caches\transforms-3\c58c5d14e61baeb39c2b0b8ea02b3fe1\transformed\jetified-firebase-storage-20.3.0\AndroidManifest.xml:30:13-32:85
+156                android:name="com.google.firebase.components:com.google.firebase.storage.FirebaseStorageKtxRegistrar"
+156-->[com.google.firebase:firebase-storage:20.3.0] C:\Users\Samsung\.gradle\caches\transforms-3\c58c5d14e61baeb39c2b0b8ea02b3fe1\transformed\jetified-firebase-storage-20.3.0\AndroidManifest.xml:31:17-118
+157                android:value="com.google.firebase.components.ComponentRegistrar" />
+157-->[com.google.firebase:firebase-storage:20.3.0] C:\Users\Samsung\.gradle\caches\transforms-3\c58c5d14e61baeb39c2b0b8ea02b3fe1\transformed\jetified-firebase-storage-20.3.0\AndroidManifest.xml:32:17-82
+158            <meta-data
+158-->[com.google.firebase:firebase-storage:20.3.0] C:\Users\Samsung\.gradle\caches\transforms-3\c58c5d14e61baeb39c2b0b8ea02b3fe1\transformed\jetified-firebase-storage-20.3.0\AndroidManifest.xml:33:13-35:85
+159                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+159-->[com.google.firebase:firebase-storage:20.3.0] C:\Users\Samsung\.gradle\caches\transforms-3\c58c5d14e61baeb39c2b0b8ea02b3fe1\transformed\jetified-firebase-storage-20.3.0\AndroidManifest.xml:34:17-107
+160                android:value="com.google.firebase.components.ComponentRegistrar" />
+160-->[com.google.firebase:firebase-storage:20.3.0] C:\Users\Samsung\.gradle\caches\transforms-3\c58c5d14e61baeb39c2b0b8ea02b3fe1\transformed\jetified-firebase-storage-20.3.0\AndroidManifest.xml:35:17-82
+161            <meta-data
+161-->[com.google.firebase:firebase-appcheck:17.1.1] C:\Users\Samsung\.gradle\caches\transforms-3\3aa83cb9a5fbbb696f0fc75d5b83f7f5\transformed\jetified-firebase-appcheck-17.1.1\AndroidManifest.xml:25:13-27:85
+162                android:name="com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckKtxRegistrar"
+162-->[com.google.firebase:firebase-appcheck:17.1.1] C:\Users\Samsung\.gradle\caches\transforms-3\3aa83cb9a5fbbb696f0fc75d5b83f7f5\transformed\jetified-firebase-appcheck-17.1.1\AndroidManifest.xml:26:17-120
+163                android:value="com.google.firebase.components.ComponentRegistrar" />
+163-->[com.google.firebase:firebase-appcheck:17.1.1] C:\Users\Samsung\.gradle\caches\transforms-3\3aa83cb9a5fbbb696f0fc75d5b83f7f5\transformed\jetified-firebase-appcheck-17.1.1\AndroidManifest.xml:27:17-82
+164            <meta-data
+164-->[com.google.firebase:firebase-appcheck:17.1.1] C:\Users\Samsung\.gradle\caches\transforms-3\3aa83cb9a5fbbb696f0fc75d5b83f7f5\transformed\jetified-firebase-appcheck-17.1.1\AndroidManifest.xml:28:13-30:85
+165                android:name="com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckRegistrar"
+165-->[com.google.firebase:firebase-appcheck:17.1.1] C:\Users\Samsung\.gradle\caches\transforms-3\3aa83cb9a5fbbb696f0fc75d5b83f7f5\transformed\jetified-firebase-appcheck-17.1.1\AndroidManifest.xml:29:17-117
+166                android:value="com.google.firebase.components.ComponentRegistrar" />
+166-->[com.google.firebase:firebase-appcheck:17.1.1] C:\Users\Samsung\.gradle\caches\transforms-3\3aa83cb9a5fbbb696f0fc75d5b83f7f5\transformed\jetified-firebase-appcheck-17.1.1\AndroidManifest.xml:30:17-82
+167            <meta-data
+167-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\Samsung\.gradle\caches\transforms-3\35e8be93d91b10c6a45eb33c436a489a\transformed\jetified-play-services-measurement-api-21.5.0\AndroidManifest.xml:37:13-39:85
+168                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+168-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\Samsung\.gradle\caches\transforms-3\35e8be93d91b10c6a45eb33c436a489a\transformed\jetified-play-services-measurement-api-21.5.0\AndroidManifest.xml:38:17-139
+169                android:value="com.google.firebase.components.ComponentRegistrar" />
+169-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\Samsung\.gradle\caches\transforms-3\35e8be93d91b10c6a45eb33c436a489a\transformed\jetified-play-services-measurement-api-21.5.0\AndroidManifest.xml:39:17-82
+170            <meta-data
+170-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\Samsung\.gradle\caches\transforms-3\206d24ad4b22f55933c629d404cf1c93\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:15:13-17:85
+171                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar"
+171-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\Samsung\.gradle\caches\transforms-3\206d24ad4b22f55933c629d404cf1c93\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:16:17-130
+172                android:value="com.google.firebase.components.ComponentRegistrar" />
+172-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\Samsung\.gradle\caches\transforms-3\206d24ad4b22f55933c629d404cf1c93\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:17:17-82
+173            <meta-data
+173-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\Samsung\.gradle\caches\transforms-3\206d24ad4b22f55933c629d404cf1c93\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:18:13-20:85
+174                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+174-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\Samsung\.gradle\caches\transforms-3\206d24ad4b22f55933c629d404cf1c93\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:19:17-127
+175                android:value="com.google.firebase.components.ComponentRegistrar" />
+175-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\Samsung\.gradle\caches\transforms-3\206d24ad4b22f55933c629d404cf1c93\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:20:17-82
+176            <meta-data
+176-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\Samsung\.gradle\caches\transforms-3\0ae04d34d3d37093c68aa185e1c09f6b\transformed\jetified-firebase-common-ktx-20.4.2\AndroidManifest.xml:12:13-14:85
+177                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+177-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\Samsung\.gradle\caches\transforms-3\0ae04d34d3d37093c68aa185e1c09f6b\transformed\jetified-firebase-common-ktx-20.4.2\AndroidManifest.xml:13:17-116
+178                android:value="com.google.firebase.components.ComponentRegistrar" />
+178-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\Samsung\.gradle\caches\transforms-3\0ae04d34d3d37093c68aa185e1c09f6b\transformed\jetified-firebase-common-ktx-20.4.2\AndroidManifest.xml:14:17-82
+179            <meta-data
+179-->[com.google.firebase:firebase-common:20.4.2] C:\Users\Samsung\.gradle\caches\transforms-3\a03b342155d2fe06ebf9977478021bf4\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:35:13-37:85
+180                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+180-->[com.google.firebase:firebase-common:20.4.2] C:\Users\Samsung\.gradle\caches\transforms-3\a03b342155d2fe06ebf9977478021bf4\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:36:17-109
+181                android:value="com.google.firebase.components.ComponentRegistrar" />
+181-->[com.google.firebase:firebase-common:20.4.2] C:\Users\Samsung\.gradle\caches\transforms-3\a03b342155d2fe06ebf9977478021bf4\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:37:17-82
+182        </service>
+183        <service
+183-->[:zego_zpns] C:\flutterprojelerim\zego_call_test\build\zego_zpns\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-13:72
+184            android:name="im.zego.zpns_flutter.internal.utils.ZPNsMessagingBackgroundService"
+184-->[:zego_zpns] C:\flutterprojelerim\zego_call_test\build\zego_zpns\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-94
+185            android:exported="false"
+185-->[:zego_zpns] C:\flutterprojelerim\zego_call_test\build\zego_zpns\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-37
+186            android:permission="android.permission.BIND_JOB_SERVICE" />
+186-->[:zego_zpns] C:\flutterprojelerim\zego_call_test\build\zego_zpns\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-69
+187
+188        <receiver
+188-->[:zego_zpns] C:\flutterprojelerim\zego_call_test\build\zego_zpns\intermediates\merged_manifest\debug\AndroidManifest.xml:15:9-22:20
+189            android:name="im.zego.zpns_flutter.internal.ZPNsPluginEventHandler"
+189-->[:zego_zpns] C:\flutterprojelerim\zego_call_test\build\zego_zpns\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-80
+190            android:enabled="true"
+190-->[:zego_zpns] C:\flutterprojelerim\zego_call_test\build\zego_zpns\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-35
+191            android:exported="true" >
+191-->[:zego_zpns] C:\flutterprojelerim\zego_call_test\build\zego_zpns\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-36
+192            <intent-filter>
+192-->[:zego_zpns] C:\flutterprojelerim\zego_call_test\build\zego_zpns\intermediates\merged_manifest\debug\AndroidManifest.xml:19:13-21:29
+193                <action android:name="im.zego.zim.zpns.intent.action.MESSAGE" />
+193-->[:zego_zpns] C:\flutterprojelerim\zego_call_test\build\zego_zpns\intermediates\merged_manifest\debug\AndroidManifest.xml:20:17-81
+193-->[:zego_zpns] C:\flutterprojelerim\zego_call_test\build\zego_zpns\intermediates\merged_manifest\debug\AndroidManifest.xml:20:25-78
+194            </intent-filter>
+195        </receiver>
+196
+197        <provider
+197-->[:image_picker_android] C:\flutterprojelerim\zego_call_test\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-18:20
+198            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+198-->[:image_picker_android] C:\flutterprojelerim\zego_call_test\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-82
+199            android:authorities="com.devonesoft.app.zego_call_test.flutter.image_provider"
+199-->[:image_picker_android] C:\flutterprojelerim\zego_call_test\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-74
+200            android:exported="false"
+200-->[:image_picker_android] C:\flutterprojelerim\zego_call_test\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-37
+201            android:grantUriPermissions="true" >
+201-->[:image_picker_android] C:\flutterprojelerim\zego_call_test\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-47
+202            <meta-data
+202-->[:image_picker_android] C:\flutterprojelerim\zego_call_test\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-17:75
+203                android:name="android.support.FILE_PROVIDER_PATHS"
+203-->[:image_picker_android] C:\flutterprojelerim\zego_call_test\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:16:17-67
+204                android:resource="@xml/flutter_image_picker_file_paths" />
+204-->[:image_picker_android] C:\flutterprojelerim\zego_call_test\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:17:17-72
+205        </provider>
+206
+207        <receiver
+207-->[:awesome_notifications] C:\flutterprojelerim\zego_call_test\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:15:9-17:39
+208            android:name="me.carda.awesome_notifications.DartNotificationActionReceiver"
+208-->[:awesome_notifications] C:\flutterprojelerim\zego_call_test\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-89
+209            android:exported="true" />
+209-->[:awesome_notifications] C:\flutterprojelerim\zego_call_test\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-36
+210        <receiver
+210-->[:awesome_notifications] C:\flutterprojelerim\zego_call_test\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:18:9-20:39
+211            android:name="me.carda.awesome_notifications.DartDismissedNotificationReceiver"
+211-->[:awesome_notifications] C:\flutterprojelerim\zego_call_test\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:19:13-92
+212            android:exported="true" />
+212-->[:awesome_notifications] C:\flutterprojelerim\zego_call_test\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:20:13-36
+213        <receiver
+213-->[:awesome_notifications] C:\flutterprojelerim\zego_call_test\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:21:9-23:39
+214            android:name="me.carda.awesome_notifications.DartScheduledNotificationReceiver"
+214-->[:awesome_notifications] C:\flutterprojelerim\zego_call_test\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:22:13-92
+215            android:exported="true" />
+215-->[:awesome_notifications] C:\flutterprojelerim\zego_call_test\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:23:13-36
+216        <receiver
+216-->[:awesome_notifications] C:\flutterprojelerim\zego_call_test\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:24:9-38:20
+217            android:name="me.carda.awesome_notifications.DartRefreshSchedulesReceiver"
+217-->[:awesome_notifications] C:\flutterprojelerim\zego_call_test\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:25:13-87
+218            android:enabled="true"
+218-->[:awesome_notifications] C:\flutterprojelerim\zego_call_test\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:26:13-35
+219            android:exported="true" >
+219-->[:awesome_notifications] C:\flutterprojelerim\zego_call_test\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:27:13-36
+220            <intent-filter>
+220-->[:awesome_notifications] C:\flutterprojelerim\zego_call_test\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:28:13-37:29
+221                <category android:name="android.intent.category.DEFAULT" />
+221-->[:awesome_notifications] C:\flutterprojelerim\zego_call_test\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:29:17-76
+221-->[:awesome_notifications] C:\flutterprojelerim\zego_call_test\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:29:27-73
+222
+223                <action android:name="android.intent.action.BOOT_COMPLETED" />
+223-->[:awesome_notifications] C:\flutterprojelerim\zego_call_test\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:31:17-79
+223-->[:awesome_notifications] C:\flutterprojelerim\zego_call_test\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:31:25-76
+224                <action android:name="android.intent.action.LOCKED_BOOT_COMPLETED" />
+224-->[:awesome_notifications] C:\flutterprojelerim\zego_call_test\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:32:17-86
+224-->[:awesome_notifications] C:\flutterprojelerim\zego_call_test\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:32:25-83
+225                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+225-->[:awesome_notifications] C:\flutterprojelerim\zego_call_test\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:33:17-84
+225-->[:awesome_notifications] C:\flutterprojelerim\zego_call_test\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:33:25-81
+226                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+226-->[:awesome_notifications] C:\flutterprojelerim\zego_call_test\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:34:17-82
+226-->[:awesome_notifications] C:\flutterprojelerim\zego_call_test\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:34:25-79
+227                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+227-->[:awesome_notifications] C:\flutterprojelerim\zego_call_test\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:35:17-82
+227-->[:awesome_notifications] C:\flutterprojelerim\zego_call_test\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:35:25-79
+228                <action android:name="android.app.action.SCHEDULE_EXACT_ALARM_PERMISSION_STATE_CHANGED" />
+228-->[:awesome_notifications] C:\flutterprojelerim\zego_call_test\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:36:17-107
+228-->[:awesome_notifications] C:\flutterprojelerim\zego_call_test\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:36:25-104
+229            </intent-filter>
+230        </receiver>
+231
+232        <service
+232-->[:awesome_notifications] C:\flutterprojelerim\zego_call_test\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:40:9-43:72
+233            android:name="me.carda.awesome_notifications.DartBackgroundService"
+233-->[:awesome_notifications] C:\flutterprojelerim\zego_call_test\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:41:13-80
+234            android:exported="false"
+234-->[:awesome_notifications] C:\flutterprojelerim\zego_call_test\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:42:13-37
+235            android:permission="android.permission.BIND_JOB_SERVICE" />
+235-->[:awesome_notifications] C:\flutterprojelerim\zego_call_test\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:43:13-69
+236        <service
+236-->[:awesome_notifications] C:\flutterprojelerim\zego_call_test\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:44:9-49:43
+237            android:name="me.carda.awesome_notifications.core.services.ForegroundService"
+237-->[:awesome_notifications] C:\flutterprojelerim\zego_call_test\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:45:13-90
+238            android:enabled="true"
+238-->[:awesome_notifications] C:\flutterprojelerim\zego_call_test\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:46:13-35
+239            android:exported="false"
+239-->[:awesome_notifications] C:\flutterprojelerim\zego_call_test\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:47:13-37
+240            android:foregroundServiceType="phoneCall"
+240-->[:awesome_notifications] C:\flutterprojelerim\zego_call_test\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:48:13-54
+241            android:stopWithTask="true" />
+241-->[:awesome_notifications] C:\flutterprojelerim\zego_call_test\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:49:13-40
+242
+243        <activity
+243-->[:zego_express_engine] C:\flutterprojelerim\zego_call_test\build\zego_express_engine\intermediates\merged_manifest\debug\AndroidManifest.xml:12:9-17:64
+244            android:name="im.zego.internal.screencapture.ZegoScreenCaptureManager$ZegoScreenCaptureAssistantActivity"
+244-->[:zego_express_engine] C:\flutterprojelerim\zego_call_test\build\zego_express_engine\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-118
+245            android:configChanges="screenSize|orientation"
+245-->[:zego_express_engine] C:\flutterprojelerim\zego_call_test\build\zego_express_engine\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-59
+246            android:exported="false"
+246-->[:zego_express_engine] C:\flutterprojelerim\zego_call_test\build\zego_express_engine\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-37
+247            android:screenOrientation="fullUser"
+247-->[:zego_express_engine] C:\flutterprojelerim\zego_call_test\build\zego_express_engine\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-49
+248            android:theme="@android:style/Theme.Translucent" />
+248-->[:zego_express_engine] C:\flutterprojelerim\zego_call_test\build\zego_express_engine\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-61
+249
+250        <service
+250-->[:zego_express_engine] C:\flutterprojelerim\zego_call_test\build\zego_express_engine\intermediates\merged_manifest\debug\AndroidManifest.xml:19:9-27:19
+251            android:name="im.zego.internal.screencapture.ZegoScreenCaptureService"
+251-->[:zego_express_engine] C:\flutterprojelerim\zego_call_test\build\zego_express_engine\intermediates\merged_manifest\debug\AndroidManifest.xml:20:13-83
+252            android:enabled="true"
+252-->[:zego_express_engine] C:\flutterprojelerim\zego_call_test\build\zego_express_engine\intermediates\merged_manifest\debug\AndroidManifest.xml:21:13-35
+253            android:exported="false"
+253-->[:zego_express_engine] C:\flutterprojelerim\zego_call_test\build\zego_express_engine\intermediates\merged_manifest\debug\AndroidManifest.xml:22:13-37
+254            android:foregroundServiceType="mediaProjection" >
+254-->[:zego_express_engine] C:\flutterprojelerim\zego_call_test\build\zego_express_engine\intermediates\merged_manifest\debug\AndroidManifest.xml:23:13-60
+255            <intent-filter>
+255-->[:zego_express_engine] C:\flutterprojelerim\zego_call_test\build\zego_express_engine\intermediates\merged_manifest\debug\AndroidManifest.xml:24:13-26:29
+256                <action android:name="android.intent.action.screenshare" />
+256-->[:zego_express_engine] C:\flutterprojelerim\zego_call_test\build\zego_express_engine\intermediates\merged_manifest\debug\AndroidManifest.xml:25:17-76
+256-->[:zego_express_engine] C:\flutterprojelerim\zego_call_test\build\zego_express_engine\intermediates\merged_manifest\debug\AndroidManifest.xml:25:25-73
+257            </intent-filter>
+258        </service>
+259
+260        <activity
+260-->[:flutter_callkit_incoming] C:\flutterprojelerim\zego_call_test\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:18:9-32:20
+261            android:name="com.hiennv.flutter_callkit_incoming.CallkitIncomingActivity"
+261-->[:flutter_callkit_incoming] C:\flutterprojelerim\zego_call_test\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:19:13-87
+262            android:configChanges="orientation"
+262-->[:flutter_callkit_incoming] C:\flutterprojelerim\zego_call_test\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:20:13-48
+263            android:excludeFromRecents="true"
+263-->[:flutter_callkit_incoming] C:\flutterprojelerim\zego_call_test\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:21:13-46
+264            android:exported="true"
+264-->[:flutter_callkit_incoming] C:\flutterprojelerim\zego_call_test\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:22:13-36
+265            android:noHistory="true"
+265-->[:flutter_callkit_incoming] C:\flutterprojelerim\zego_call_test\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:23:13-37
+266            android:taskAffinity="com.hiennv.flutter_callkit_incoming.INCOMING_CALL_AFFINITY"
+266-->[:flutter_callkit_incoming] C:\flutterprojelerim\zego_call_test\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:24:13-94
+267            android:theme="@style/CallkitIncomingTheme"
+267-->[:flutter_callkit_incoming] C:\flutterprojelerim\zego_call_test\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:25:13-56
+268            android:turnScreenOn="true" >
+268-->[:flutter_callkit_incoming] C:\flutterprojelerim\zego_call_test\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:26:13-40
+269            <intent-filter>
+269-->[:flutter_callkit_incoming] C:\flutterprojelerim\zego_call_test\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:27:13-31:29
+270                <action android:name="com.devonesoft.app.zego_call_test.com.hiennv.flutter_callkit_incoming.ACTION_CALL_INCOMING" />
+270-->[:flutter_callkit_incoming] C:\flutterprojelerim\zego_call_test\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:28:17-116
+270-->[:flutter_callkit_incoming] C:\flutterprojelerim\zego_call_test\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:28:25-113
+271
+272                <category android:name="android.intent.category.DEFAULT" />
+272-->[:awesome_notifications] C:\flutterprojelerim\zego_call_test\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:29:17-76
+272-->[:awesome_notifications] C:\flutterprojelerim\zego_call_test\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:29:27-73
+273            </intent-filter>
+274        </activity>
+275        <activity
+275-->[:flutter_callkit_incoming] C:\flutterprojelerim\zego_call_test\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:33:9-36:55
+276            android:name="com.hiennv.flutter_callkit_incoming.TransparentActivity"
+276-->[:flutter_callkit_incoming] C:\flutterprojelerim\zego_call_test\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:34:13-83
+277            android:exported="false"
+277-->[:flutter_callkit_incoming] C:\flutterprojelerim\zego_call_test\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:35:13-37
+278            android:theme="@style/TranslucentTheme" />
+278-->[:flutter_callkit_incoming] C:\flutterprojelerim\zego_call_test\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:36:13-52
+279
+280        <receiver
+280-->[:flutter_callkit_incoming] C:\flutterprojelerim\zego_call_test\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:38:9-49:20
+281            android:name="com.hiennv.flutter_callkit_incoming.CallkitIncomingBroadcastReceiver"
+281-->[:flutter_callkit_incoming] C:\flutterprojelerim\zego_call_test\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:39:13-96
+282            android:enabled="true"
+282-->[:flutter_callkit_incoming] C:\flutterprojelerim\zego_call_test\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:40:13-35
+283            android:exported="true" >
+283-->[:flutter_callkit_incoming] C:\flutterprojelerim\zego_call_test\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:41:13-36
+284            <intent-filter>
+284-->[:flutter_callkit_incoming] C:\flutterprojelerim\zego_call_test\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:42:13-48:29
+285                <action android:name="com.devonesoft.app.zego_call_test.com.hiennv.flutter_callkit_incoming.ACTION_CALL_INCOMING" />
+285-->[:flutter_callkit_incoming] C:\flutterprojelerim\zego_call_test\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:28:17-116
+285-->[:flutter_callkit_incoming] C:\flutterprojelerim\zego_call_test\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:28:25-113
+286                <action android:name="com.devonesoft.app.zego_call_test.com.hiennv.flutter_callkit_incoming.ACTION_CALL_ACCEPT" />
+286-->[:flutter_callkit_incoming] C:\flutterprojelerim\zego_call_test\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:44:17-114
+286-->[:flutter_callkit_incoming] C:\flutterprojelerim\zego_call_test\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:44:25-111
+287                <action android:name="com.devonesoft.app.zego_call_test.com.hiennv.flutter_callkit_incoming.ACTION_CALL_DECLINE" />
+287-->[:flutter_callkit_incoming] C:\flutterprojelerim\zego_call_test\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:45:17-115
+287-->[:flutter_callkit_incoming] C:\flutterprojelerim\zego_call_test\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:45:25-112
+288                <action android:name="com.devonesoft.app.zego_call_test.com.hiennv.flutter_callkit_incoming.ACTION_CALL_ENDED" />
+288-->[:flutter_callkit_incoming] C:\flutterprojelerim\zego_call_test\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:46:17-113
+288-->[:flutter_callkit_incoming] C:\flutterprojelerim\zego_call_test\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:46:25-110
+289                <action android:name="com.devonesoft.app.zego_call_test.com.hiennv.flutter_callkit_incoming.ACTION_CALL_TIMEOUT" />
+289-->[:flutter_callkit_incoming] C:\flutterprojelerim\zego_call_test\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:47:17-115
+289-->[:flutter_callkit_incoming] C:\flutterprojelerim\zego_call_test\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:47:25-112
+290            </intent-filter>
+291        </receiver>
+292
+293        <service
+293-->[:flutter_callkit_incoming] C:\flutterprojelerim\zego_call_test\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:51:9-54:39
+294            android:name="com.hiennv.flutter_callkit_incoming.CallkitSoundPlayerService"
+294-->[:flutter_callkit_incoming] C:\flutterprojelerim\zego_call_test\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:52:13-89
+295            android:enabled="true"
+295-->[:flutter_callkit_incoming] C:\flutterprojelerim\zego_call_test\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:53:13-35
+296            android:exported="true" />
+296-->[:flutter_callkit_incoming] C:\flutterprojelerim\zego_call_test\build\flutter_callkit_incoming\intermediates\merged_manifest\debug\AndroidManifest.xml:54:13-36
+297
+298        <activity
+298-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\Samsung\.gradle\caches\transforms-3\017ea1f8b5708855a1e753fabc4eae4d\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:29:9-46:20
+299            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+299-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\Samsung\.gradle\caches\transforms-3\017ea1f8b5708855a1e753fabc4eae4d\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:30:13-80
+300            android:excludeFromRecents="true"
+300-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\Samsung\.gradle\caches\transforms-3\017ea1f8b5708855a1e753fabc4eae4d\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:31:13-46
+301            android:exported="true"
+301-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\Samsung\.gradle\caches\transforms-3\017ea1f8b5708855a1e753fabc4eae4d\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:32:13-36
+302            android:launchMode="singleTask"
+302-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\Samsung\.gradle\caches\transforms-3\017ea1f8b5708855a1e753fabc4eae4d\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:33:13-44
+303            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+303-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\Samsung\.gradle\caches\transforms-3\017ea1f8b5708855a1e753fabc4eae4d\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:34:13-72
+304            <intent-filter>
+304-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\Samsung\.gradle\caches\transforms-3\017ea1f8b5708855a1e753fabc4eae4d\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:35:13-45:29
+305                <action android:name="android.intent.action.VIEW" />
+305-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\Samsung\.gradle\caches\transforms-3\017ea1f8b5708855a1e753fabc4eae4d\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:36:17-69
+305-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\Samsung\.gradle\caches\transforms-3\017ea1f8b5708855a1e753fabc4eae4d\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:36:25-66
+306
+307                <category android:name="android.intent.category.DEFAULT" />
+307-->[:awesome_notifications] C:\flutterprojelerim\zego_call_test\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:29:17-76
+307-->[:awesome_notifications] C:\flutterprojelerim\zego_call_test\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:29:27-73
+308                <category android:name="android.intent.category.BROWSABLE" />
+308-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\Samsung\.gradle\caches\transforms-3\017ea1f8b5708855a1e753fabc4eae4d\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:39:17-78
+308-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\Samsung\.gradle\caches\transforms-3\017ea1f8b5708855a1e753fabc4eae4d\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:39:27-75
+309
+310                <data
+310-->[:file_picker] C:\flutterprojelerim\zego_call_test\build\file_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-44
+311                    android:host="firebase.auth"
+312                    android:path="/"
+313                    android:scheme="genericidp" />
+314            </intent-filter>
+315        </activity>
+316        <activity
+316-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\Samsung\.gradle\caches\transforms-3\017ea1f8b5708855a1e753fabc4eae4d\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:47:9-64:20
+317            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+317-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\Samsung\.gradle\caches\transforms-3\017ea1f8b5708855a1e753fabc4eae4d\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:48:13-79
+318            android:excludeFromRecents="true"
+318-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\Samsung\.gradle\caches\transforms-3\017ea1f8b5708855a1e753fabc4eae4d\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:49:13-46
+319            android:exported="true"
+319-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\Samsung\.gradle\caches\transforms-3\017ea1f8b5708855a1e753fabc4eae4d\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:50:13-36
+320            android:launchMode="singleTask"
+320-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\Samsung\.gradle\caches\transforms-3\017ea1f8b5708855a1e753fabc4eae4d\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:51:13-44
+321            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+321-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\Samsung\.gradle\caches\transforms-3\017ea1f8b5708855a1e753fabc4eae4d\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:52:13-72
+322            <intent-filter>
+322-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\Samsung\.gradle\caches\transforms-3\017ea1f8b5708855a1e753fabc4eae4d\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:53:13-63:29
+323                <action android:name="android.intent.action.VIEW" />
+323-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\Samsung\.gradle\caches\transforms-3\017ea1f8b5708855a1e753fabc4eae4d\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:36:17-69
+323-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\Samsung\.gradle\caches\transforms-3\017ea1f8b5708855a1e753fabc4eae4d\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:36:25-66
+324
+325                <category android:name="android.intent.category.DEFAULT" />
+325-->[:awesome_notifications] C:\flutterprojelerim\zego_call_test\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:29:17-76
+325-->[:awesome_notifications] C:\flutterprojelerim\zego_call_test\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:29:27-73
+326                <category android:name="android.intent.category.BROWSABLE" />
+326-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\Samsung\.gradle\caches\transforms-3\017ea1f8b5708855a1e753fabc4eae4d\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:39:17-78
+326-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\Samsung\.gradle\caches\transforms-3\017ea1f8b5708855a1e753fabc4eae4d\transformed\jetified-firebase-auth-22.3.0\AndroidManifest.xml:39:27-75
+327
+328                <data
+328-->[:file_picker] C:\flutterprojelerim\zego_call_test\build\file_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-44
+329                    android:host="firebase.auth"
+330                    android:path="/"
+331                    android:scheme="recaptcha" />
+332            </intent-filter>
+333        </activity>
+334
+335        <property
+335-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\Samsung\.gradle\caches\transforms-3\35e8be93d91b10c6a45eb33c436a489a\transformed\jetified-play-services-measurement-api-21.5.0\AndroidManifest.xml:30:9-32:61
+336            android:name="android.adservices.AD_SERVICES_CONFIG"
+336-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\Samsung\.gradle\caches\transforms-3\35e8be93d91b10c6a45eb33c436a489a\transformed\jetified-play-services-measurement-api-21.5.0\AndroidManifest.xml:31:13-65
+337            android:resource="@xml/ga_ad_services_config" />
+337-->[com.google.android.gms:play-services-measurement-api:21.5.0] C:\Users\Samsung\.gradle\caches\transforms-3\35e8be93d91b10c6a45eb33c436a489a\transformed\jetified-play-services-measurement-api-21.5.0\AndroidManifest.xml:32:13-58
+338
+339        <service
+339-->[me.carda:AndroidAwnCore:0.7.6] C:\Users\Samsung\.gradle\caches\transforms-3\46372a44808f62a0de9674f23797c98c\transformed\jetified-AndroidAwnCore-0.7.6\AndroidManifest.xml:21:9-28:19
+340            android:name="me.carda.awesome_notifications.core.managers.StatusBarManager"
+340-->[me.carda:AndroidAwnCore:0.7.6] C:\Users\Samsung\.gradle\caches\transforms-3\46372a44808f62a0de9674f23797c98c\transformed\jetified-AndroidAwnCore-0.7.6\AndroidManifest.xml:22:13-89
+341            android:exported="true"
+341-->[me.carda:AndroidAwnCore:0.7.6] C:\Users\Samsung\.gradle\caches\transforms-3\46372a44808f62a0de9674f23797c98c\transformed\jetified-AndroidAwnCore-0.7.6\AndroidManifest.xml:23:13-36
+342            android:label="My Notification Listener Service" >
+342-->[me.carda:AndroidAwnCore:0.7.6] C:\Users\Samsung\.gradle\caches\transforms-3\46372a44808f62a0de9674f23797c98c\transformed\jetified-AndroidAwnCore-0.7.6\AndroidManifest.xml:24:13-61
+343            <intent-filter>
+343-->[me.carda:AndroidAwnCore:0.7.6] C:\Users\Samsung\.gradle\caches\transforms-3\46372a44808f62a0de9674f23797c98c\transformed\jetified-AndroidAwnCore-0.7.6\AndroidManifest.xml:25:13-27:29
+344                <action android:name="android.service.notification.NotificationListenerService" />
+344-->[me.carda:AndroidAwnCore:0.7.6] C:\Users\Samsung\.gradle\caches\transforms-3\46372a44808f62a0de9674f23797c98c\transformed\jetified-AndroidAwnCore-0.7.6\AndroidManifest.xml:26:17-99
+344-->[me.carda:AndroidAwnCore:0.7.6] C:\Users\Samsung\.gradle\caches\transforms-3\46372a44808f62a0de9674f23797c98c\transformed\jetified-AndroidAwnCore-0.7.6\AndroidManifest.xml:26:25-96
+345            </intent-filter>
+346        </service> <!-- Mqtt Service -->
+347        <service android:name="org.eclipse.paho.android.service.MqttService" />
+347-->[com.github.umair13adil:RxLogs:1.0.20] C:\Users\Samsung\.gradle\caches\transforms-3\ff395352679ccc8c8a09d18e71e7f328\transformed\jetified-RxLogs-1.0.20\AndroidManifest.xml:18:9-80
+347-->[com.github.umair13adil:RxLogs:1.0.20] C:\Users\Samsung\.gradle\caches\transforms-3\ff395352679ccc8c8a09d18e71e7f328\transformed\jetified-RxLogs-1.0.20\AndroidManifest.xml:18:18-77
+348
+349        <provider
+349-->[androidx.work:work-runtime:2.8.1] C:\Users\Samsung\.gradle\caches\transforms-3\08015e4a75a735e835784a349f10652c\transformed\work-runtime-2.8.1\AndroidManifest.xml:29:9-37:20
+350            android:name="androidx.startup.InitializationProvider"
+350-->[androidx.work:work-runtime:2.8.1] C:\Users\Samsung\.gradle\caches\transforms-3\08015e4a75a735e835784a349f10652c\transformed\work-runtime-2.8.1\AndroidManifest.xml:30:13-67
+351            android:authorities="com.devonesoft.app.zego_call_test.androidx-startup"
+351-->[androidx.work:work-runtime:2.8.1] C:\Users\Samsung\.gradle\caches\transforms-3\08015e4a75a735e835784a349f10652c\transformed\work-runtime-2.8.1\AndroidManifest.xml:31:13-68
+352            android:exported="false" >
+352-->[androidx.work:work-runtime:2.8.1] C:\Users\Samsung\.gradle\caches\transforms-3\08015e4a75a735e835784a349f10652c\transformed\work-runtime-2.8.1\AndroidManifest.xml:32:13-37
+353            <meta-data
+353-->[androidx.work:work-runtime:2.8.1] C:\Users\Samsung\.gradle\caches\transforms-3\08015e4a75a735e835784a349f10652c\transformed\work-runtime-2.8.1\AndroidManifest.xml:34:13-36:52
+354                android:name="androidx.work.WorkManagerInitializer"
+354-->[androidx.work:work-runtime:2.8.1] C:\Users\Samsung\.gradle\caches\transforms-3\08015e4a75a735e835784a349f10652c\transformed\work-runtime-2.8.1\AndroidManifest.xml:35:17-68
+355                android:value="androidx.startup" />
+355-->[androidx.work:work-runtime:2.8.1] C:\Users\Samsung\.gradle\caches\transforms-3\08015e4a75a735e835784a349f10652c\transformed\work-runtime-2.8.1\AndroidManifest.xml:36:17-49
+356            <meta-data
+356-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Samsung\.gradle\caches\transforms-3\079668f3a455a3fb594244008c6517a5\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+357                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+357-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Samsung\.gradle\caches\transforms-3\079668f3a455a3fb594244008c6517a5\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+358                android:value="androidx.startup" />
+358-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Samsung\.gradle\caches\transforms-3\079668f3a455a3fb594244008c6517a5\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+359            <meta-data
+359-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\Samsung\.gradle\caches\transforms-3\15870a5ca1dae42b255a76698366f31c\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
+360                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+360-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\Samsung\.gradle\caches\transforms-3\15870a5ca1dae42b255a76698366f31c\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
+361                android:value="androidx.startup" />
+361-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\Samsung\.gradle\caches\transforms-3\15870a5ca1dae42b255a76698366f31c\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
+362            <meta-data
+362-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Samsung\.gradle\caches\transforms-3\297b7f98354e0914715792e55971bfee\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+363                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+363-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Samsung\.gradle\caches\transforms-3\297b7f98354e0914715792e55971bfee\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+364                android:value="androidx.startup" />
+364-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Samsung\.gradle\caches\transforms-3\297b7f98354e0914715792e55971bfee\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+365        </provider>
+366
+367        <service
+367-->[androidx.work:work-runtime:2.8.1] C:\Users\Samsung\.gradle\caches\transforms-3\08015e4a75a735e835784a349f10652c\transformed\work-runtime-2.8.1\AndroidManifest.xml:39:9-45:35
+368            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+368-->[androidx.work:work-runtime:2.8.1] C:\Users\Samsung\.gradle\caches\transforms-3\08015e4a75a735e835784a349f10652c\transformed\work-runtime-2.8.1\AndroidManifest.xml:40:13-88
+369            android:directBootAware="false"
+369-->[androidx.work:work-runtime:2.8.1] C:\Users\Samsung\.gradle\caches\transforms-3\08015e4a75a735e835784a349f10652c\transformed\work-runtime-2.8.1\AndroidManifest.xml:41:13-44
+370            android:enabled="@bool/enable_system_alarm_service_default"
+370-->[androidx.work:work-runtime:2.8.1] C:\Users\Samsung\.gradle\caches\transforms-3\08015e4a75a735e835784a349f10652c\transformed\work-runtime-2.8.1\AndroidManifest.xml:42:13-72
+371            android:exported="false" />
+371-->[androidx.work:work-runtime:2.8.1] C:\Users\Samsung\.gradle\caches\transforms-3\08015e4a75a735e835784a349f10652c\transformed\work-runtime-2.8.1\AndroidManifest.xml:43:13-37
+372        <service
+372-->[androidx.work:work-runtime:2.8.1] C:\Users\Samsung\.gradle\caches\transforms-3\08015e4a75a735e835784a349f10652c\transformed\work-runtime-2.8.1\AndroidManifest.xml:46:9-52:35
+373            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+373-->[androidx.work:work-runtime:2.8.1] C:\Users\Samsung\.gradle\caches\transforms-3\08015e4a75a735e835784a349f10652c\transformed\work-runtime-2.8.1\AndroidManifest.xml:47:13-84
+374            android:directBootAware="false"
+374-->[androidx.work:work-runtime:2.8.1] C:\Users\Samsung\.gradle\caches\transforms-3\08015e4a75a735e835784a349f10652c\transformed\work-runtime-2.8.1\AndroidManifest.xml:48:13-44
+375            android:enabled="@bool/enable_system_job_service_default"
+375-->[androidx.work:work-runtime:2.8.1] C:\Users\Samsung\.gradle\caches\transforms-3\08015e4a75a735e835784a349f10652c\transformed\work-runtime-2.8.1\AndroidManifest.xml:49:13-70
+376            android:exported="true"
+376-->[androidx.work:work-runtime:2.8.1] C:\Users\Samsung\.gradle\caches\transforms-3\08015e4a75a735e835784a349f10652c\transformed\work-runtime-2.8.1\AndroidManifest.xml:50:13-36
+377            android:permission="android.permission.BIND_JOB_SERVICE" />
+377-->[androidx.work:work-runtime:2.8.1] C:\Users\Samsung\.gradle\caches\transforms-3\08015e4a75a735e835784a349f10652c\transformed\work-runtime-2.8.1\AndroidManifest.xml:51:13-69
+378        <service
+378-->[androidx.work:work-runtime:2.8.1] C:\Users\Samsung\.gradle\caches\transforms-3\08015e4a75a735e835784a349f10652c\transformed\work-runtime-2.8.1\AndroidManifest.xml:53:9-59:35
+379            android:name="androidx.work.impl.foreground.SystemForegroundService"
+379-->[androidx.work:work-runtime:2.8.1] C:\Users\Samsung\.gradle\caches\transforms-3\08015e4a75a735e835784a349f10652c\transformed\work-runtime-2.8.1\AndroidManifest.xml:54:13-81
+380            android:directBootAware="false"
+380-->[androidx.work:work-runtime:2.8.1] C:\Users\Samsung\.gradle\caches\transforms-3\08015e4a75a735e835784a349f10652c\transformed\work-runtime-2.8.1\AndroidManifest.xml:55:13-44
+381            android:enabled="@bool/enable_system_foreground_service_default"
+381-->[androidx.work:work-runtime:2.8.1] C:\Users\Samsung\.gradle\caches\transforms-3\08015e4a75a735e835784a349f10652c\transformed\work-runtime-2.8.1\AndroidManifest.xml:56:13-77
+382            android:exported="false" />
+382-->[androidx.work:work-runtime:2.8.1] C:\Users\Samsung\.gradle\caches\transforms-3\08015e4a75a735e835784a349f10652c\transformed\work-runtime-2.8.1\AndroidManifest.xml:57:13-37
+383
+384        <receiver
+384-->[androidx.work:work-runtime:2.8.1] C:\Users\Samsung\.gradle\caches\transforms-3\08015e4a75a735e835784a349f10652c\transformed\work-runtime-2.8.1\AndroidManifest.xml:61:9-66:35
+385            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+385-->[androidx.work:work-runtime:2.8.1] C:\Users\Samsung\.gradle\caches\transforms-3\08015e4a75a735e835784a349f10652c\transformed\work-runtime-2.8.1\AndroidManifest.xml:62:13-88
+386            android:directBootAware="false"
+386-->[androidx.work:work-runtime:2.8.1] C:\Users\Samsung\.gradle\caches\transforms-3\08015e4a75a735e835784a349f10652c\transformed\work-runtime-2.8.1\AndroidManifest.xml:63:13-44
+387            android:enabled="true"
+387-->[androidx.work:work-runtime:2.8.1] C:\Users\Samsung\.gradle\caches\transforms-3\08015e4a75a735e835784a349f10652c\transformed\work-runtime-2.8.1\AndroidManifest.xml:64:13-35
+388            android:exported="false" />
+388-->[androidx.work:work-runtime:2.8.1] C:\Users\Samsung\.gradle\caches\transforms-3\08015e4a75a735e835784a349f10652c\transformed\work-runtime-2.8.1\AndroidManifest.xml:65:13-37
+389        <receiver
+389-->[androidx.work:work-runtime:2.8.1] C:\Users\Samsung\.gradle\caches\transforms-3\08015e4a75a735e835784a349f10652c\transformed\work-runtime-2.8.1\AndroidManifest.xml:67:9-77:20
+390            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+390-->[androidx.work:work-runtime:2.8.1] C:\Users\Samsung\.gradle\caches\transforms-3\08015e4a75a735e835784a349f10652c\transformed\work-runtime-2.8.1\AndroidManifest.xml:68:13-106
+391            android:directBootAware="false"
+391-->[androidx.work:work-runtime:2.8.1] C:\Users\Samsung\.gradle\caches\transforms-3\08015e4a75a735e835784a349f10652c\transformed\work-runtime-2.8.1\AndroidManifest.xml:69:13-44
+392            android:enabled="false"
+392-->[androidx.work:work-runtime:2.8.1] C:\Users\Samsung\.gradle\caches\transforms-3\08015e4a75a735e835784a349f10652c\transformed\work-runtime-2.8.1\AndroidManifest.xml:70:13-36
+393            android:exported="false" >
+393-->[androidx.work:work-runtime:2.8.1] C:\Users\Samsung\.gradle\caches\transforms-3\08015e4a75a735e835784a349f10652c\transformed\work-runtime-2.8.1\AndroidManifest.xml:71:13-37
+394            <intent-filter>
+394-->[androidx.work:work-runtime:2.8.1] C:\Users\Samsung\.gradle\caches\transforms-3\08015e4a75a735e835784a349f10652c\transformed\work-runtime-2.8.1\AndroidManifest.xml:73:13-76:29
+395                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+395-->[androidx.work:work-runtime:2.8.1] C:\Users\Samsung\.gradle\caches\transforms-3\08015e4a75a735e835784a349f10652c\transformed\work-runtime-2.8.1\AndroidManifest.xml:74:17-87
+395-->[androidx.work:work-runtime:2.8.1] C:\Users\Samsung\.gradle\caches\transforms-3\08015e4a75a735e835784a349f10652c\transformed\work-runtime-2.8.1\AndroidManifest.xml:74:25-84
+396                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+396-->[androidx.work:work-runtime:2.8.1] C:\Users\Samsung\.gradle\caches\transforms-3\08015e4a75a735e835784a349f10652c\transformed\work-runtime-2.8.1\AndroidManifest.xml:75:17-90
+396-->[androidx.work:work-runtime:2.8.1] C:\Users\Samsung\.gradle\caches\transforms-3\08015e4a75a735e835784a349f10652c\transformed\work-runtime-2.8.1\AndroidManifest.xml:75:25-87
+397            </intent-filter>
+398        </receiver>
+399        <receiver
+399-->[androidx.work:work-runtime:2.8.1] C:\Users\Samsung\.gradle\caches\transforms-3\08015e4a75a735e835784a349f10652c\transformed\work-runtime-2.8.1\AndroidManifest.xml:78:9-88:20
+400            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+400-->[androidx.work:work-runtime:2.8.1] C:\Users\Samsung\.gradle\caches\transforms-3\08015e4a75a735e835784a349f10652c\transformed\work-runtime-2.8.1\AndroidManifest.xml:79:13-104
+401            android:directBootAware="false"
+401-->[androidx.work:work-runtime:2.8.1] C:\Users\Samsung\.gradle\caches\transforms-3\08015e4a75a735e835784a349f10652c\transformed\work-runtime-2.8.1\AndroidManifest.xml:80:13-44
+402            android:enabled="false"
+402-->[androidx.work:work-runtime:2.8.1] C:\Users\Samsung\.gradle\caches\transforms-3\08015e4a75a735e835784a349f10652c\transformed\work-runtime-2.8.1\AndroidManifest.xml:81:13-36
+403            android:exported="false" >
+403-->[androidx.work:work-runtime:2.8.1] C:\Users\Samsung\.gradle\caches\transforms-3\08015e4a75a735e835784a349f10652c\transformed\work-runtime-2.8.1\AndroidManifest.xml:82:13-37
+404            <intent-filter>
+404-->[androidx.work:work-runtime:2.8.1] C:\Users\Samsung\.gradle\caches\transforms-3\08015e4a75a735e835784a349f10652c\transformed\work-runtime-2.8.1\AndroidManifest.xml:84:13-87:29
+405                <action android:name="android.intent.action.BATTERY_OKAY" />
+405-->[androidx.work:work-runtime:2.8.1] C:\Users\Samsung\.gradle\caches\transforms-3\08015e4a75a735e835784a349f10652c\transformed\work-runtime-2.8.1\AndroidManifest.xml:85:17-77
+405-->[androidx.work:work-runtime:2.8.1] C:\Users\Samsung\.gradle\caches\transforms-3\08015e4a75a735e835784a349f10652c\transformed\work-runtime-2.8.1\AndroidManifest.xml:85:25-74
+406                <action android:name="android.intent.action.BATTERY_LOW" />
+406-->[androidx.work:work-runtime:2.8.1] C:\Users\Samsung\.gradle\caches\transforms-3\08015e4a75a735e835784a349f10652c\transformed\work-runtime-2.8.1\AndroidManifest.xml:86:17-76
+406-->[androidx.work:work-runtime:2.8.1] C:\Users\Samsung\.gradle\caches\transforms-3\08015e4a75a735e835784a349f10652c\transformed\work-runtime-2.8.1\AndroidManifest.xml:86:25-73
+407            </intent-filter>
+408        </receiver>
+409        <receiver
+409-->[androidx.work:work-runtime:2.8.1] C:\Users\Samsung\.gradle\caches\transforms-3\08015e4a75a735e835784a349f10652c\transformed\work-runtime-2.8.1\AndroidManifest.xml:89:9-99:20
+410            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+410-->[androidx.work:work-runtime:2.8.1] C:\Users\Samsung\.gradle\caches\transforms-3\08015e4a75a735e835784a349f10652c\transformed\work-runtime-2.8.1\AndroidManifest.xml:90:13-104
+411            android:directBootAware="false"
+411-->[androidx.work:work-runtime:2.8.1] C:\Users\Samsung\.gradle\caches\transforms-3\08015e4a75a735e835784a349f10652c\transformed\work-runtime-2.8.1\AndroidManifest.xml:91:13-44
+412            android:enabled="false"
+412-->[androidx.work:work-runtime:2.8.1] C:\Users\Samsung\.gradle\caches\transforms-3\08015e4a75a735e835784a349f10652c\transformed\work-runtime-2.8.1\AndroidManifest.xml:92:13-36
+413            android:exported="false" >
+413-->[androidx.work:work-runtime:2.8.1] C:\Users\Samsung\.gradle\caches\transforms-3\08015e4a75a735e835784a349f10652c\transformed\work-runtime-2.8.1\AndroidManifest.xml:93:13-37
+414            <intent-filter>
+414-->[androidx.work:work-runtime:2.8.1] C:\Users\Samsung\.gradle\caches\transforms-3\08015e4a75a735e835784a349f10652c\transformed\work-runtime-2.8.1\AndroidManifest.xml:95:13-98:29
+415                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+415-->[androidx.work:work-runtime:2.8.1] C:\Users\Samsung\.gradle\caches\transforms-3\08015e4a75a735e835784a349f10652c\transformed\work-runtime-2.8.1\AndroidManifest.xml:96:17-83
+415-->[androidx.work:work-runtime:2.8.1] C:\Users\Samsung\.gradle\caches\transforms-3\08015e4a75a735e835784a349f10652c\transformed\work-runtime-2.8.1\AndroidManifest.xml:96:25-80
+416                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+416-->[androidx.work:work-runtime:2.8.1] C:\Users\Samsung\.gradle\caches\transforms-3\08015e4a75a735e835784a349f10652c\transformed\work-runtime-2.8.1\AndroidManifest.xml:97:17-82
+416-->[androidx.work:work-runtime:2.8.1] C:\Users\Samsung\.gradle\caches\transforms-3\08015e4a75a735e835784a349f10652c\transformed\work-runtime-2.8.1\AndroidManifest.xml:97:25-79
+417            </intent-filter>
+418        </receiver>
+419        <receiver
+419-->[androidx.work:work-runtime:2.8.1] C:\Users\Samsung\.gradle\caches\transforms-3\08015e4a75a735e835784a349f10652c\transformed\work-runtime-2.8.1\AndroidManifest.xml:100:9-109:20
+420            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+420-->[androidx.work:work-runtime:2.8.1] C:\Users\Samsung\.gradle\caches\transforms-3\08015e4a75a735e835784a349f10652c\transformed\work-runtime-2.8.1\AndroidManifest.xml:101:13-103
+421            android:directBootAware="false"
+421-->[androidx.work:work-runtime:2.8.1] C:\Users\Samsung\.gradle\caches\transforms-3\08015e4a75a735e835784a349f10652c\transformed\work-runtime-2.8.1\AndroidManifest.xml:102:13-44
+422            android:enabled="false"
+422-->[androidx.work:work-runtime:2.8.1] C:\Users\Samsung\.gradle\caches\transforms-3\08015e4a75a735e835784a349f10652c\transformed\work-runtime-2.8.1\AndroidManifest.xml:103:13-36
+423            android:exported="false" >
+423-->[androidx.work:work-runtime:2.8.1] C:\Users\Samsung\.gradle\caches\transforms-3\08015e4a75a735e835784a349f10652c\transformed\work-runtime-2.8.1\AndroidManifest.xml:104:13-37
+424            <intent-filter>
+424-->[androidx.work:work-runtime:2.8.1] C:\Users\Samsung\.gradle\caches\transforms-3\08015e4a75a735e835784a349f10652c\transformed\work-runtime-2.8.1\AndroidManifest.xml:106:13-108:29
+425                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+425-->[androidx.work:work-runtime:2.8.1] C:\Users\Samsung\.gradle\caches\transforms-3\08015e4a75a735e835784a349f10652c\transformed\work-runtime-2.8.1\AndroidManifest.xml:107:17-79
+425-->[androidx.work:work-runtime:2.8.1] C:\Users\Samsung\.gradle\caches\transforms-3\08015e4a75a735e835784a349f10652c\transformed\work-runtime-2.8.1\AndroidManifest.xml:107:25-76
+426            </intent-filter>
+427        </receiver>
+428        <receiver
+428-->[androidx.work:work-runtime:2.8.1] C:\Users\Samsung\.gradle\caches\transforms-3\08015e4a75a735e835784a349f10652c\transformed\work-runtime-2.8.1\AndroidManifest.xml:110:9-121:20
+429            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+429-->[androidx.work:work-runtime:2.8.1] C:\Users\Samsung\.gradle\caches\transforms-3\08015e4a75a735e835784a349f10652c\transformed\work-runtime-2.8.1\AndroidManifest.xml:111:13-88
+430            android:directBootAware="false"
+430-->[androidx.work:work-runtime:2.8.1] C:\Users\Samsung\.gradle\caches\transforms-3\08015e4a75a735e835784a349f10652c\transformed\work-runtime-2.8.1\AndroidManifest.xml:112:13-44
+431            android:enabled="false"
+431-->[androidx.work:work-runtime:2.8.1] C:\Users\Samsung\.gradle\caches\transforms-3\08015e4a75a735e835784a349f10652c\transformed\work-runtime-2.8.1\AndroidManifest.xml:113:13-36
+432            android:exported="false" >
+432-->[androidx.work:work-runtime:2.8.1] C:\Users\Samsung\.gradle\caches\transforms-3\08015e4a75a735e835784a349f10652c\transformed\work-runtime-2.8.1\AndroidManifest.xml:114:13-37
+433            <intent-filter>
+433-->[androidx.work:work-runtime:2.8.1] C:\Users\Samsung\.gradle\caches\transforms-3\08015e4a75a735e835784a349f10652c\transformed\work-runtime-2.8.1\AndroidManifest.xml:116:13-120:29
+434                <action android:name="android.intent.action.BOOT_COMPLETED" />
+434-->[:awesome_notifications] C:\flutterprojelerim\zego_call_test\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:31:17-79
+434-->[:awesome_notifications] C:\flutterprojelerim\zego_call_test\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:31:25-76
+435                <action android:name="android.intent.action.TIME_SET" />
+435-->[androidx.work:work-runtime:2.8.1] C:\Users\Samsung\.gradle\caches\transforms-3\08015e4a75a735e835784a349f10652c\transformed\work-runtime-2.8.1\AndroidManifest.xml:118:17-73
+435-->[androidx.work:work-runtime:2.8.1] C:\Users\Samsung\.gradle\caches\transforms-3\08015e4a75a735e835784a349f10652c\transformed\work-runtime-2.8.1\AndroidManifest.xml:118:25-70
+436                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+436-->[androidx.work:work-runtime:2.8.1] C:\Users\Samsung\.gradle\caches\transforms-3\08015e4a75a735e835784a349f10652c\transformed\work-runtime-2.8.1\AndroidManifest.xml:119:17-81
+436-->[androidx.work:work-runtime:2.8.1] C:\Users\Samsung\.gradle\caches\transforms-3\08015e4a75a735e835784a349f10652c\transformed\work-runtime-2.8.1\AndroidManifest.xml:119:25-78
+437            </intent-filter>
+438        </receiver>
+439        <receiver
+439-->[androidx.work:work-runtime:2.8.1] C:\Users\Samsung\.gradle\caches\transforms-3\08015e4a75a735e835784a349f10652c\transformed\work-runtime-2.8.1\AndroidManifest.xml:122:9-131:20
+440            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+440-->[androidx.work:work-runtime:2.8.1] C:\Users\Samsung\.gradle\caches\transforms-3\08015e4a75a735e835784a349f10652c\transformed\work-runtime-2.8.1\AndroidManifest.xml:123:13-99
+441            android:directBootAware="false"
+441-->[androidx.work:work-runtime:2.8.1] C:\Users\Samsung\.gradle\caches\transforms-3\08015e4a75a735e835784a349f10652c\transformed\work-runtime-2.8.1\AndroidManifest.xml:124:13-44
+442            android:enabled="@bool/enable_system_alarm_service_default"
+442-->[androidx.work:work-runtime:2.8.1] C:\Users\Samsung\.gradle\caches\transforms-3\08015e4a75a735e835784a349f10652c\transformed\work-runtime-2.8.1\AndroidManifest.xml:125:13-72
+443            android:exported="false" >
+443-->[androidx.work:work-runtime:2.8.1] C:\Users\Samsung\.gradle\caches\transforms-3\08015e4a75a735e835784a349f10652c\transformed\work-runtime-2.8.1\AndroidManifest.xml:126:13-37
+444            <intent-filter>
+444-->[androidx.work:work-runtime:2.8.1] C:\Users\Samsung\.gradle\caches\transforms-3\08015e4a75a735e835784a349f10652c\transformed\work-runtime-2.8.1\AndroidManifest.xml:128:13-130:29
+445                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+445-->[androidx.work:work-runtime:2.8.1] C:\Users\Samsung\.gradle\caches\transforms-3\08015e4a75a735e835784a349f10652c\transformed\work-runtime-2.8.1\AndroidManifest.xml:129:17-98
+445-->[androidx.work:work-runtime:2.8.1] C:\Users\Samsung\.gradle\caches\transforms-3\08015e4a75a735e835784a349f10652c\transformed\work-runtime-2.8.1\AndroidManifest.xml:129:25-95
+446            </intent-filter>
+447        </receiver>
+448        <receiver
+448-->[androidx.work:work-runtime:2.8.1] C:\Users\Samsung\.gradle\caches\transforms-3\08015e4a75a735e835784a349f10652c\transformed\work-runtime-2.8.1\AndroidManifest.xml:132:9-142:20
+449            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+449-->[androidx.work:work-runtime:2.8.1] C:\Users\Samsung\.gradle\caches\transforms-3\08015e4a75a735e835784a349f10652c\transformed\work-runtime-2.8.1\AndroidManifest.xml:133:13-78
+450            android:directBootAware="false"
+450-->[androidx.work:work-runtime:2.8.1] C:\Users\Samsung\.gradle\caches\transforms-3\08015e4a75a735e835784a349f10652c\transformed\work-runtime-2.8.1\AndroidManifest.xml:134:13-44
+451            android:enabled="true"
+451-->[androidx.work:work-runtime:2.8.1] C:\Users\Samsung\.gradle\caches\transforms-3\08015e4a75a735e835784a349f10652c\transformed\work-runtime-2.8.1\AndroidManifest.xml:135:13-35
+452            android:exported="true"
+452-->[androidx.work:work-runtime:2.8.1] C:\Users\Samsung\.gradle\caches\transforms-3\08015e4a75a735e835784a349f10652c\transformed\work-runtime-2.8.1\AndroidManifest.xml:136:13-36
+453            android:permission="android.permission.DUMP" >
+453-->[androidx.work:work-runtime:2.8.1] C:\Users\Samsung\.gradle\caches\transforms-3\08015e4a75a735e835784a349f10652c\transformed\work-runtime-2.8.1\AndroidManifest.xml:137:13-57
+454            <intent-filter>
+454-->[androidx.work:work-runtime:2.8.1] C:\Users\Samsung\.gradle\caches\transforms-3\08015e4a75a735e835784a349f10652c\transformed\work-runtime-2.8.1\AndroidManifest.xml:139:13-141:29
+455                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+455-->[androidx.work:work-runtime:2.8.1] C:\Users\Samsung\.gradle\caches\transforms-3\08015e4a75a735e835784a349f10652c\transformed\work-runtime-2.8.1\AndroidManifest.xml:140:17-88
+455-->[androidx.work:work-runtime:2.8.1] C:\Users\Samsung\.gradle\caches\transforms-3\08015e4a75a735e835784a349f10652c\transformed\work-runtime-2.8.1\AndroidManifest.xml:140:25-85
+456            </intent-filter>
+457        </receiver>
+458
+459        <service
+459-->[androidx.room:room-runtime:2.5.0] C:\Users\Samsung\.gradle\caches\transforms-3\053b55fdf84effcf8342d759ce4c999e\transformed\room-runtime-2.5.0\AndroidManifest.xml:24:9-28:63
+460            android:name="androidx.room.MultiInstanceInvalidationService"
+460-->[androidx.room:room-runtime:2.5.0] C:\Users\Samsung\.gradle\caches\transforms-3\053b55fdf84effcf8342d759ce4c999e\transformed\room-runtime-2.5.0\AndroidManifest.xml:25:13-74
+461            android:directBootAware="true"
+461-->[androidx.room:room-runtime:2.5.0] C:\Users\Samsung\.gradle\caches\transforms-3\053b55fdf84effcf8342d759ce4c999e\transformed\room-runtime-2.5.0\AndroidManifest.xml:26:13-43
+462            android:exported="false" />
+462-->[androidx.room:room-runtime:2.5.0] C:\Users\Samsung\.gradle\caches\transforms-3\053b55fdf84effcf8342d759ce4c999e\transformed\room-runtime-2.5.0\AndroidManifest.xml:27:13-37
+463
+464        <receiver
+464-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\Samsung\.gradle\caches\transforms-3\7eebed0f9e9239e142f485bb37ade13e\transformed\jetified-play-services-measurement-21.5.0\AndroidManifest.xml:29:9-33:20
+465            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+465-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\Samsung\.gradle\caches\transforms-3\7eebed0f9e9239e142f485bb37ade13e\transformed\jetified-play-services-measurement-21.5.0\AndroidManifest.xml:30:13-85
+466            android:enabled="true"
+466-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\Samsung\.gradle\caches\transforms-3\7eebed0f9e9239e142f485bb37ade13e\transformed\jetified-play-services-measurement-21.5.0\AndroidManifest.xml:31:13-35
+467            android:exported="false" >
+467-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\Samsung\.gradle\caches\transforms-3\7eebed0f9e9239e142f485bb37ade13e\transformed\jetified-play-services-measurement-21.5.0\AndroidManifest.xml:32:13-37
+468        </receiver>
+469
+470        <service
+470-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\Samsung\.gradle\caches\transforms-3\7eebed0f9e9239e142f485bb37ade13e\transformed\jetified-play-services-measurement-21.5.0\AndroidManifest.xml:35:9-38:40
+471            android:name="com.google.android.gms.measurement.AppMeasurementService"
+471-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\Samsung\.gradle\caches\transforms-3\7eebed0f9e9239e142f485bb37ade13e\transformed\jetified-play-services-measurement-21.5.0\AndroidManifest.xml:36:13-84
+472            android:enabled="true"
+472-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\Samsung\.gradle\caches\transforms-3\7eebed0f9e9239e142f485bb37ade13e\transformed\jetified-play-services-measurement-21.5.0\AndroidManifest.xml:37:13-35
+473            android:exported="false" />
+473-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\Samsung\.gradle\caches\transforms-3\7eebed0f9e9239e142f485bb37ade13e\transformed\jetified-play-services-measurement-21.5.0\AndroidManifest.xml:38:13-37
+474        <service
+474-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\Samsung\.gradle\caches\transforms-3\7eebed0f9e9239e142f485bb37ade13e\transformed\jetified-play-services-measurement-21.5.0\AndroidManifest.xml:39:9-43:72
+475            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+475-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\Samsung\.gradle\caches\transforms-3\7eebed0f9e9239e142f485bb37ade13e\transformed\jetified-play-services-measurement-21.5.0\AndroidManifest.xml:40:13-87
+476            android:enabled="true"
+476-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\Samsung\.gradle\caches\transforms-3\7eebed0f9e9239e142f485bb37ade13e\transformed\jetified-play-services-measurement-21.5.0\AndroidManifest.xml:41:13-35
+477            android:exported="false"
+477-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\Samsung\.gradle\caches\transforms-3\7eebed0f9e9239e142f485bb37ade13e\transformed\jetified-play-services-measurement-21.5.0\AndroidManifest.xml:42:13-37
+478            android:permission="android.permission.BIND_JOB_SERVICE" />
+478-->[com.google.android.gms:play-services-measurement:21.5.0] C:\Users\Samsung\.gradle\caches\transforms-3\7eebed0f9e9239e142f485bb37ade13e\transformed\jetified-play-services-measurement-21.5.0\AndroidManifest.xml:43:13-69
+479
+480        <uses-library
+480-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\Samsung\.gradle\caches\transforms-3\dcd6d16cdc1862e9ae774c0adf29866f\transformed\jetified-ads-adservices-1.0.0-beta05\AndroidManifest.xml:23:9-25:40
+481            android:name="android.ext.adservices"
+481-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\Samsung\.gradle\caches\transforms-3\dcd6d16cdc1862e9ae774c0adf29866f\transformed\jetified-ads-adservices-1.0.0-beta05\AndroidManifest.xml:24:13-50
+482            android:required="false" />
+482-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\Samsung\.gradle\caches\transforms-3\dcd6d16cdc1862e9ae774c0adf29866f\transformed\jetified-ads-adservices-1.0.0-beta05\AndroidManifest.xml:25:13-37
+483
+484        <provider
+484-->[com.google.firebase:firebase-common:20.4.2] C:\Users\Samsung\.gradle\caches\transforms-3\a03b342155d2fe06ebf9977478021bf4\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:23:9-28:39
+485            android:name="com.google.firebase.provider.FirebaseInitProvider"
+485-->[com.google.firebase:firebase-common:20.4.2] C:\Users\Samsung\.gradle\caches\transforms-3\a03b342155d2fe06ebf9977478021bf4\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:24:13-77
+486            android:authorities="com.devonesoft.app.zego_call_test.firebaseinitprovider"
+486-->[com.google.firebase:firebase-common:20.4.2] C:\Users\Samsung\.gradle\caches\transforms-3\a03b342155d2fe06ebf9977478021bf4\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:25:13-72
+487            android:directBootAware="true"
+487-->[com.google.firebase:firebase-common:20.4.2] C:\Users\Samsung\.gradle\caches\transforms-3\a03b342155d2fe06ebf9977478021bf4\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:26:13-43
+488            android:exported="false"
+488-->[com.google.firebase:firebase-common:20.4.2] C:\Users\Samsung\.gradle\caches\transforms-3\a03b342155d2fe06ebf9977478021bf4\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:27:13-37
+489            android:initOrder="100" />
+489-->[com.google.firebase:firebase-common:20.4.2] C:\Users\Samsung\.gradle\caches\transforms-3\a03b342155d2fe06ebf9977478021bf4\transformed\jetified-firebase-common-20.4.2\AndroidManifest.xml:28:13-36
+490
+491        <activity
+491-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Samsung\.gradle\caches\transforms-3\afd5ab762f0c3c484ada89a729bf0cb2\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+492            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+492-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Samsung\.gradle\caches\transforms-3\afd5ab762f0c3c484ada89a729bf0cb2\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+493            android:exported="false"
+493-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Samsung\.gradle\caches\transforms-3\afd5ab762f0c3c484ada89a729bf0cb2\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+494            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+494-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Samsung\.gradle\caches\transforms-3\afd5ab762f0c3c484ada89a729bf0cb2\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+495
+496        <meta-data
+496-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Samsung\.gradle\caches\transforms-3\6011f626cf32d1124e40965bf7a3647c\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+497            android:name="com.google.android.gms.version"
+497-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Samsung\.gradle\caches\transforms-3\6011f626cf32d1124e40965bf7a3647c\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+498            android:value="@integer/google_play_services_version" />
+498-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Samsung\.gradle\caches\transforms-3\6011f626cf32d1124e40965bf7a3647c\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+499
+500        <uses-library
+500-->[androidx.window:window:1.0.0-beta04] C:\Users\Samsung\.gradle\caches\transforms-3\6e92227e54e359c441cc86ea2dbc847e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+501            android:name="androidx.window.extensions"
+501-->[androidx.window:window:1.0.0-beta04] C:\Users\Samsung\.gradle\caches\transforms-3\6e92227e54e359c441cc86ea2dbc847e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+502            android:required="false" />
+502-->[androidx.window:window:1.0.0-beta04] C:\Users\Samsung\.gradle\caches\transforms-3\6e92227e54e359c441cc86ea2dbc847e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+503        <uses-library
+503-->[androidx.window:window:1.0.0-beta04] C:\Users\Samsung\.gradle\caches\transforms-3\6e92227e54e359c441cc86ea2dbc847e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+504            android:name="androidx.window.sidecar"
+504-->[androidx.window:window:1.0.0-beta04] C:\Users\Samsung\.gradle\caches\transforms-3\6e92227e54e359c441cc86ea2dbc847e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+505            android:required="false" />
+505-->[androidx.window:window:1.0.0-beta04] C:\Users\Samsung\.gradle\caches\transforms-3\6e92227e54e359c441cc86ea2dbc847e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+506
+507        <provider
+507-->[com.squareup.picasso:picasso:2.71828] C:\Users\Samsung\.gradle\caches\transforms-3\75cdcdda1f593ef184ec6f32569e1d03\transformed\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+508            android:name="com.squareup.picasso.PicassoProvider"
+508-->[com.squareup.picasso:picasso:2.71828] C:\Users\Samsung\.gradle\caches\transforms-3\75cdcdda1f593ef184ec6f32569e1d03\transformed\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+509            android:authorities="com.devonesoft.app.zego_call_test.com.squareup.picasso"
+509-->[com.squareup.picasso:picasso:2.71828] C:\Users\Samsung\.gradle\caches\transforms-3\75cdcdda1f593ef184ec6f32569e1d03\transformed\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+510            android:exported="false" />
+510-->[com.squareup.picasso:picasso:2.71828] C:\Users\Samsung\.gradle\caches\transforms-3\75cdcdda1f593ef184ec6f32569e1d03\transformed\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+511
+512        <receiver
+512-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Samsung\.gradle\caches\transforms-3\297b7f98354e0914715792e55971bfee\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+513            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+513-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Samsung\.gradle\caches\transforms-3\297b7f98354e0914715792e55971bfee\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+514            android:directBootAware="false"
+514-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Samsung\.gradle\caches\transforms-3\297b7f98354e0914715792e55971bfee\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+515            android:enabled="true"
+515-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Samsung\.gradle\caches\transforms-3\297b7f98354e0914715792e55971bfee\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+516            android:exported="true"
+516-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Samsung\.gradle\caches\transforms-3\297b7f98354e0914715792e55971bfee\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+517            android:permission="android.permission.DUMP" >
+517-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Samsung\.gradle\caches\transforms-3\297b7f98354e0914715792e55971bfee\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+518            <intent-filter>
+518-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Samsung\.gradle\caches\transforms-3\297b7f98354e0914715792e55971bfee\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+519                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+519-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Samsung\.gradle\caches\transforms-3\297b7f98354e0914715792e55971bfee\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+519-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Samsung\.gradle\caches\transforms-3\297b7f98354e0914715792e55971bfee\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+520            </intent-filter>
+521            <intent-filter>
+521-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Samsung\.gradle\caches\transforms-3\297b7f98354e0914715792e55971bfee\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+522                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+522-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Samsung\.gradle\caches\transforms-3\297b7f98354e0914715792e55971bfee\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+522-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Samsung\.gradle\caches\transforms-3\297b7f98354e0914715792e55971bfee\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+523            </intent-filter>
+524            <intent-filter>
+524-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Samsung\.gradle\caches\transforms-3\297b7f98354e0914715792e55971bfee\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+525                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+525-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Samsung\.gradle\caches\transforms-3\297b7f98354e0914715792e55971bfee\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+525-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Samsung\.gradle\caches\transforms-3\297b7f98354e0914715792e55971bfee\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+526            </intent-filter>
+527            <intent-filter>
+527-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Samsung\.gradle\caches\transforms-3\297b7f98354e0914715792e55971bfee\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+528                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+528-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Samsung\.gradle\caches\transforms-3\297b7f98354e0914715792e55971bfee\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+528-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Samsung\.gradle\caches\transforms-3\297b7f98354e0914715792e55971bfee\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+529            </intent-filter>
+530        </receiver> <!-- 小米推送 -->
+531        <service
+531-->[im.zego:zpns:2.4.0] C:\Users\Samsung\.gradle\caches\transforms-3\3d9df55f0043a4c93771c8c8330e388b\transformed\jetified-zpns-2.4.0\AndroidManifest.xml:27:9-32:46
+532            android:name="com.xiaomi.push.service.XMJobService"
+532-->[im.zego:zpns:2.4.0] C:\Users\Samsung\.gradle\caches\transforms-3\3d9df55f0043a4c93771c8c8330e388b\transformed\jetified-zpns-2.4.0\AndroidManifest.xml:28:13-64
+533            android:enabled="true"
+533-->[im.zego:zpns:2.4.0] C:\Users\Samsung\.gradle\caches\transforms-3\3d9df55f0043a4c93771c8c8330e388b\transformed\jetified-zpns-2.4.0\AndroidManifest.xml:29:13-35
+534            android:exported="false"
+534-->[im.zego:zpns:2.4.0] C:\Users\Samsung\.gradle\caches\transforms-3\3d9df55f0043a4c93771c8c8330e388b\transformed\jetified-zpns-2.4.0\AndroidManifest.xml:30:13-37
+535            android:permission="android.permission.BIND_JOB_SERVICE"
+535-->[im.zego:zpns:2.4.0] C:\Users\Samsung\.gradle\caches\transforms-3\3d9df55f0043a4c93771c8c8330e388b\transformed\jetified-zpns-2.4.0\AndroidManifest.xml:31:13-69
+536            android:process=":pushservice" /> <!-- FCM推送 -->
+536-->[im.zego:zpns:2.4.0] C:\Users\Samsung\.gradle\caches\transforms-3\3d9df55f0043a4c93771c8c8330e388b\transformed\jetified-zpns-2.4.0\AndroidManifest.xml:32:13-43
+537        <service
+537-->[im.zego:zpns:2.4.0] C:\Users\Samsung\.gradle\caches\transforms-3\3d9df55f0043a4c93771c8c8330e388b\transformed\jetified-zpns-2.4.0\AndroidManifest.xml:35:9-41:19
+538            android:name="im.zego.zpns.internal.receiver.FCMMessageService"
+538-->[im.zego:zpns:2.4.0] C:\Users\Samsung\.gradle\caches\transforms-3\3d9df55f0043a4c93771c8c8330e388b\transformed\jetified-zpns-2.4.0\AndroidManifest.xml:36:13-76
+539            android:exported="false" >
+539-->[im.zego:zpns:2.4.0] C:\Users\Samsung\.gradle\caches\transforms-3\3d9df55f0043a4c93771c8c8330e388b\transformed\jetified-zpns-2.4.0\AndroidManifest.xml:37:13-37
+540            <intent-filter>
+540-->[im.zego:zpns:2.4.0] C:\Users\Samsung\.gradle\caches\transforms-3\3d9df55f0043a4c93771c8c8330e388b\transformed\jetified-zpns-2.4.0\AndroidManifest.xml:38:13-40:29
+541                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+541-->[im.zego:zpns:2.4.0] C:\Users\Samsung\.gradle\caches\transforms-3\3d9df55f0043a4c93771c8c8330e388b\transformed\jetified-zpns-2.4.0\AndroidManifest.xml:39:17-78
+541-->[im.zego:zpns:2.4.0] C:\Users\Samsung\.gradle\caches\transforms-3\3d9df55f0043a4c93771c8c8330e388b\transformed\jetified-zpns-2.4.0\AndroidManifest.xml:39:25-75
+542            </intent-filter>
+543        </service>
+544        <service
+544-->[im.zego:zpns:2.4.0] C:\Users\Samsung\.gradle\caches\transforms-3\3d9df55f0043a4c93771c8c8330e388b\transformed\jetified-zpns-2.4.0\AndroidManifest.xml:42:9-46:46
+545            android:name="com.xiaomi.push.service.XMPushService"
+545-->[im.zego:zpns:2.4.0] C:\Users\Samsung\.gradle\caches\transforms-3\3d9df55f0043a4c93771c8c8330e388b\transformed\jetified-zpns-2.4.0\AndroidManifest.xml:43:13-65
+546            android:enabled="true"
+546-->[im.zego:zpns:2.4.0] C:\Users\Samsung\.gradle\caches\transforms-3\3d9df55f0043a4c93771c8c8330e388b\transformed\jetified-zpns-2.4.0\AndroidManifest.xml:44:13-35
+547            android:exported="true"
+547-->[im.zego:zpns:2.4.0] C:\Users\Samsung\.gradle\caches\transforms-3\3d9df55f0043a4c93771c8c8330e388b\transformed\jetified-zpns-2.4.0\AndroidManifest.xml:45:13-36
+548            android:process=":pushservice" />
+548-->[im.zego:zpns:2.4.0] C:\Users\Samsung\.gradle\caches\transforms-3\3d9df55f0043a4c93771c8c8330e388b\transformed\jetified-zpns-2.4.0\AndroidManifest.xml:46:13-43
+549        <service
+549-->[im.zego:zpns:2.4.0] C:\Users\Samsung\.gradle\caches\transforms-3\3d9df55f0043a4c93771c8c8330e388b\transformed\jetified-zpns-2.4.0\AndroidManifest.xml:47:9-50:39
+550            android:name="com.xiaomi.mipush.sdk.PushMessageHandler"
+550-->[im.zego:zpns:2.4.0] C:\Users\Samsung\.gradle\caches\transforms-3\3d9df55f0043a4c93771c8c8330e388b\transformed\jetified-zpns-2.4.0\AndroidManifest.xml:48:13-68
+551            android:enabled="true"
+551-->[im.zego:zpns:2.4.0] C:\Users\Samsung\.gradle\caches\transforms-3\3d9df55f0043a4c93771c8c8330e388b\transformed\jetified-zpns-2.4.0\AndroidManifest.xml:49:13-35
+552            android:exported="true" />
+552-->[im.zego:zpns:2.4.0] C:\Users\Samsung\.gradle\caches\transforms-3\3d9df55f0043a4c93771c8c8330e388b\transformed\jetified-zpns-2.4.0\AndroidManifest.xml:50:13-36
+553        <service
+553-->[im.zego:zpns:2.4.0] C:\Users\Samsung\.gradle\caches\transforms-3\3d9df55f0043a4c93771c8c8330e388b\transformed\jetified-zpns-2.4.0\AndroidManifest.xml:51:9-54:39
+554            android:name="com.xiaomi.mipush.sdk.MessageHandleService"
+554-->[im.zego:zpns:2.4.0] C:\Users\Samsung\.gradle\caches\transforms-3\3d9df55f0043a4c93771c8c8330e388b\transformed\jetified-zpns-2.4.0\AndroidManifest.xml:52:13-70
+555            android:enabled="true"
+555-->[im.zego:zpns:2.4.0] C:\Users\Samsung\.gradle\caches\transforms-3\3d9df55f0043a4c93771c8c8330e388b\transformed\jetified-zpns-2.4.0\AndroidManifest.xml:53:13-35
+556            android:exported="true" />
+556-->[im.zego:zpns:2.4.0] C:\Users\Samsung\.gradle\caches\transforms-3\3d9df55f0043a4c93771c8c8330e388b\transformed\jetified-zpns-2.4.0\AndroidManifest.xml:54:13-36
+557
+558        <receiver
+558-->[im.zego:zpns:2.4.0] C:\Users\Samsung\.gradle\caches\transforms-3\3d9df55f0043a4c93771c8c8330e388b\transformed\jetified-zpns-2.4.0\AndroidManifest.xml:56:9-64:20
+559            android:name="com.xiaomi.push.service.receivers.NetworkStatusReceiver"
+559-->[im.zego:zpns:2.4.0] C:\Users\Samsung\.gradle\caches\transforms-3\3d9df55f0043a4c93771c8c8330e388b\transformed\jetified-zpns-2.4.0\AndroidManifest.xml:57:13-83
+560            android:exported="true" >
+560-->[im.zego:zpns:2.4.0] C:\Users\Samsung\.gradle\caches\transforms-3\3d9df55f0043a4c93771c8c8330e388b\transformed\jetified-zpns-2.4.0\AndroidManifest.xml:58:13-36
+561            <intent-filter>
+561-->[im.zego:zpns:2.4.0] C:\Users\Samsung\.gradle\caches\transforms-3\3d9df55f0043a4c93771c8c8330e388b\transformed\jetified-zpns-2.4.0\AndroidManifest.xml:59:13-63:29
+562                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+562-->[androidx.work:work-runtime:2.8.1] C:\Users\Samsung\.gradle\caches\transforms-3\08015e4a75a735e835784a349f10652c\transformed\work-runtime-2.8.1\AndroidManifest.xml:107:17-79
+562-->[androidx.work:work-runtime:2.8.1] C:\Users\Samsung\.gradle\caches\transforms-3\08015e4a75a735e835784a349f10652c\transformed\work-runtime-2.8.1\AndroidManifest.xml:107:25-76
+563
+564                <category android:name="android.intent.category.DEFAULT" />
+564-->[:awesome_notifications] C:\flutterprojelerim\zego_call_test\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:29:17-76
+564-->[:awesome_notifications] C:\flutterprojelerim\zego_call_test\build\awesome_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:29:27-73
+565            </intent-filter>
+566        </receiver>
+567        <receiver
+567-->[im.zego:zpns:2.4.0] C:\Users\Samsung\.gradle\caches\transforms-3\3d9df55f0043a4c93771c8c8330e388b\transformed\jetified-zpns-2.4.0\AndroidManifest.xml:65:9-72:20
+568            android:name="com.xiaomi.push.service.receivers.PingReceiver"
+568-->[im.zego:zpns:2.4.0] C:\Users\Samsung\.gradle\caches\transforms-3\3d9df55f0043a4c93771c8c8330e388b\transformed\jetified-zpns-2.4.0\AndroidManifest.xml:66:13-74
+569            android:exported="false"
+569-->[im.zego:zpns:2.4.0] C:\Users\Samsung\.gradle\caches\transforms-3\3d9df55f0043a4c93771c8c8330e388b\transformed\jetified-zpns-2.4.0\AndroidManifest.xml:67:13-37
+570            android:process=":pushservice" >
+570-->[im.zego:zpns:2.4.0] C:\Users\Samsung\.gradle\caches\transforms-3\3d9df55f0043a4c93771c8c8330e388b\transformed\jetified-zpns-2.4.0\AndroidManifest.xml:68:13-43
+571            <intent-filter>
+571-->[im.zego:zpns:2.4.0] C:\Users\Samsung\.gradle\caches\transforms-3\3d9df55f0043a4c93771c8c8330e388b\transformed\jetified-zpns-2.4.0\AndroidManifest.xml:69:13-71:29
+572                <action android:name="com.xiaomi.push.PING_TIMER" />
+572-->[im.zego:zpns:2.4.0] C:\Users\Samsung\.gradle\caches\transforms-3\3d9df55f0043a4c93771c8c8330e388b\transformed\jetified-zpns-2.4.0\AndroidManifest.xml:70:17-69
+572-->[im.zego:zpns:2.4.0] C:\Users\Samsung\.gradle\caches\transforms-3\3d9df55f0043a4c93771c8c8330e388b\transformed\jetified-zpns-2.4.0\AndroidManifest.xml:70:25-66
+573            </intent-filter>
+574        </receiver>
+575        <receiver
+575-->[im.zego:zpns:2.4.0] C:\Users\Samsung\.gradle\caches\transforms-3\3d9df55f0043a4c93771c8c8330e388b\transformed\jetified-zpns-2.4.0\AndroidManifest.xml:73:9-85:20
+576            android:name="im.zego.zpns.internal.receiver.XiaoMiMessageReceiver"
+576-->[im.zego:zpns:2.4.0] C:\Users\Samsung\.gradle\caches\transforms-3\3d9df55f0043a4c93771c8c8330e388b\transformed\jetified-zpns-2.4.0\AndroidManifest.xml:74:13-80
+577            android:exported="true" >
+577-->[im.zego:zpns:2.4.0] C:\Users\Samsung\.gradle\caches\transforms-3\3d9df55f0043a4c93771c8c8330e388b\transformed\jetified-zpns-2.4.0\AndroidManifest.xml:75:13-36
+578            <intent-filter>
+578-->[im.zego:zpns:2.4.0] C:\Users\Samsung\.gradle\caches\transforms-3\3d9df55f0043a4c93771c8c8330e388b\transformed\jetified-zpns-2.4.0\AndroidManifest.xml:76:13-78:29
+579                <action android:name="com.xiaomi.mipush.RECEIVE_MESSAGE" />
+579-->[im.zego:zpns:2.4.0] C:\Users\Samsung\.gradle\caches\transforms-3\3d9df55f0043a4c93771c8c8330e388b\transformed\jetified-zpns-2.4.0\AndroidManifest.xml:77:17-76
+579-->[im.zego:zpns:2.4.0] C:\Users\Samsung\.gradle\caches\transforms-3\3d9df55f0043a4c93771c8c8330e388b\transformed\jetified-zpns-2.4.0\AndroidManifest.xml:77:25-73
+580            </intent-filter>
+581            <intent-filter>
+581-->[im.zego:zpns:2.4.0] C:\Users\Samsung\.gradle\caches\transforms-3\3d9df55f0043a4c93771c8c8330e388b\transformed\jetified-zpns-2.4.0\AndroidManifest.xml:79:13-81:29
+582                <action android:name="com.xiaomi.mipush.MESSAGE_ARRIVED" />
+582-->[im.zego:zpns:2.4.0] C:\Users\Samsung\.gradle\caches\transforms-3\3d9df55f0043a4c93771c8c8330e388b\transformed\jetified-zpns-2.4.0\AndroidManifest.xml:80:17-76
+582-->[im.zego:zpns:2.4.0] C:\Users\Samsung\.gradle\caches\transforms-3\3d9df55f0043a4c93771c8c8330e388b\transformed\jetified-zpns-2.4.0\AndroidManifest.xml:80:25-73
+583            </intent-filter>
+584            <intent-filter>
+584-->[im.zego:zpns:2.4.0] C:\Users\Samsung\.gradle\caches\transforms-3\3d9df55f0043a4c93771c8c8330e388b\transformed\jetified-zpns-2.4.0\AndroidManifest.xml:82:13-84:29
+585                <action android:name="com.xiaomi.mipush.ERROR" />
+585-->[im.zego:zpns:2.4.0] C:\Users\Samsung\.gradle\caches\transforms-3\3d9df55f0043a4c93771c8c8330e388b\transformed\jetified-zpns-2.4.0\AndroidManifest.xml:83:17-66
+585-->[im.zego:zpns:2.4.0] C:\Users\Samsung\.gradle\caches\transforms-3\3d9df55f0043a4c93771c8c8330e388b\transformed\jetified-zpns-2.4.0\AndroidManifest.xml:83:25-63
+586            </intent-filter>
+587        </receiver> <!-- 小米推送 -->
+588        <!-- 华为推送 -->
+589        <meta-data
+589-->[im.zego:zpns:2.4.0] C:\Users\Samsung\.gradle\caches\transforms-3\3d9df55f0043a4c93771c8c8330e388b\transformed\jetified-zpns-2.4.0\AndroidManifest.xml:90:9-92:37
+590            android:name="com.huawei.hms.client.channel.androidMarket"
+590-->[im.zego:zpns:2.4.0] C:\Users\Samsung\.gradle\caches\transforms-3\3d9df55f0043a4c93771c8c8330e388b\transformed\jetified-zpns-2.4.0\AndroidManifest.xml:91:13-71
+591            android:value="false" />
+591-->[im.zego:zpns:2.4.0] C:\Users\Samsung\.gradle\caches\transforms-3\3d9df55f0043a4c93771c8c8330e388b\transformed\jetified-zpns-2.4.0\AndroidManifest.xml:92:13-34
+592
+593        <service
+593-->[im.zego:zpns:2.4.0] C:\Users\Samsung\.gradle\caches\transforms-3\3d9df55f0043a4c93771c8c8330e388b\transformed\jetified-zpns-2.4.0\AndroidManifest.xml:94:9-100:19
+594            android:name="im.zego.zpns.internal.receiver.HuaWeiMessageService"
+594-->[im.zego:zpns:2.4.0] C:\Users\Samsung\.gradle\caches\transforms-3\3d9df55f0043a4c93771c8c8330e388b\transformed\jetified-zpns-2.4.0\AndroidManifest.xml:95:13-79
+595            android:exported="true" >
+595-->[im.zego:zpns:2.4.0] C:\Users\Samsung\.gradle\caches\transforms-3\3d9df55f0043a4c93771c8c8330e388b\transformed\jetified-zpns-2.4.0\AndroidManifest.xml:96:13-36
+596            <intent-filter>
+596-->[im.zego:zpns:2.4.0] C:\Users\Samsung\.gradle\caches\transforms-3\3d9df55f0043a4c93771c8c8330e388b\transformed\jetified-zpns-2.4.0\AndroidManifest.xml:97:13-99:29
+597                <action android:name="com.huawei.push.action.MESSAGING_EVENT" />
+597-->[im.zego:zpns:2.4.0] C:\Users\Samsung\.gradle\caches\transforms-3\3d9df55f0043a4c93771c8c8330e388b\transformed\jetified-zpns-2.4.0\AndroidManifest.xml:98:17-81
+597-->[im.zego:zpns:2.4.0] C:\Users\Samsung\.gradle\caches\transforms-3\3d9df55f0043a4c93771c8c8330e388b\transformed\jetified-zpns-2.4.0\AndroidManifest.xml:98:25-78
+598            </intent-filter>
+599        </service> <!-- 华为推送 -->
+600        <!-- OPPO推送 -->
+601        <service
+601-->[im.zego:zpns:2.4.0] C:\Users\Samsung\.gradle\caches\transforms-3\3d9df55f0043a4c93771c8c8330e388b\transformed\jetified-zpns-2.4.0\AndroidManifest.xml:105:9-113:19
+602            android:name="im.zego.zpns.internal.receiver.OppoDataMessage"
+602-->[im.zego:zpns:2.4.0] C:\Users\Samsung\.gradle\caches\transforms-3\3d9df55f0043a4c93771c8c8330e388b\transformed\jetified-zpns-2.4.0\AndroidManifest.xml:106:13-74
+603            android:exported="true"
+603-->[im.zego:zpns:2.4.0] C:\Users\Samsung\.gradle\caches\transforms-3\3d9df55f0043a4c93771c8c8330e388b\transformed\jetified-zpns-2.4.0\AndroidManifest.xml:107:13-36
+604            android:permission="com.heytap.mcs.permission.SEND_PUSH_MESSAGE" >
+604-->[im.zego:zpns:2.4.0] C:\Users\Samsung\.gradle\caches\transforms-3\3d9df55f0043a4c93771c8c8330e388b\transformed\jetified-zpns-2.4.0\AndroidManifest.xml:108:13-77
+605            <intent-filter>
+605-->[im.zego:zpns:2.4.0] C:\Users\Samsung\.gradle\caches\transforms-3\3d9df55f0043a4c93771c8c8330e388b\transformed\jetified-zpns-2.4.0\AndroidManifest.xml:109:13-112:29
+606                <action android:name="com.heytap.mcs.action.RECEIVE_MCS_MESSAGE" />
+606-->[im.zego:zpns:2.4.0] C:\Users\Samsung\.gradle\caches\transforms-3\3d9df55f0043a4c93771c8c8330e388b\transformed\jetified-zpns-2.4.0\AndroidManifest.xml:110:17-84
+606-->[im.zego:zpns:2.4.0] C:\Users\Samsung\.gradle\caches\transforms-3\3d9df55f0043a4c93771c8c8330e388b\transformed\jetified-zpns-2.4.0\AndroidManifest.xml:110:25-81
+607                <action android:name="com.heytap.msp.push.RECEIVE_MCS_MESSAGE" />
+607-->[im.zego:zpns:2.4.0] C:\Users\Samsung\.gradle\caches\transforms-3\3d9df55f0043a4c93771c8c8330e388b\transformed\jetified-zpns-2.4.0\AndroidManifest.xml:111:17-82
+607-->[im.zego:zpns:2.4.0] C:\Users\Samsung\.gradle\caches\transforms-3\3d9df55f0043a4c93771c8c8330e388b\transformed\jetified-zpns-2.4.0\AndroidManifest.xml:111:25-79
+608            </intent-filter>
+609        </service>
+610        <service
+610-->[im.zego:zpns:2.4.0] C:\Users\Samsung\.gradle\caches\transforms-3\3d9df55f0043a4c93771c8c8330e388b\transformed\jetified-zpns-2.4.0\AndroidManifest.xml:114:9-121:19
+611            android:name="im.zego.zpns.internal.receiver.OppoCompatibleDataService"
+611-->[im.zego:zpns:2.4.0] C:\Users\Samsung\.gradle\caches\transforms-3\3d9df55f0043a4c93771c8c8330e388b\transformed\jetified-zpns-2.4.0\AndroidManifest.xml:115:13-84
+612            android:exported="true"
+612-->[im.zego:zpns:2.4.0] C:\Users\Samsung\.gradle\caches\transforms-3\3d9df55f0043a4c93771c8c8330e388b\transformed\jetified-zpns-2.4.0\AndroidManifest.xml:116:13-36
+613            android:permission="com.coloros.mcs.permission.SEND_MCS_MESSAGE" >
+613-->[im.zego:zpns:2.4.0] C:\Users\Samsung\.gradle\caches\transforms-3\3d9df55f0043a4c93771c8c8330e388b\transformed\jetified-zpns-2.4.0\AndroidManifest.xml:117:13-77
+614            <intent-filter>
+614-->[im.zego:zpns:2.4.0] C:\Users\Samsung\.gradle\caches\transforms-3\3d9df55f0043a4c93771c8c8330e388b\transformed\jetified-zpns-2.4.0\AndroidManifest.xml:118:13-120:29
+615                <action android:name="com.coloros.mcs.action.RECEIVE_MCS_MESSAGE" />
+615-->[im.zego:zpns:2.4.0] C:\Users\Samsung\.gradle\caches\transforms-3\3d9df55f0043a4c93771c8c8330e388b\transformed\jetified-zpns-2.4.0\AndroidManifest.xml:119:17-85
+615-->[im.zego:zpns:2.4.0] C:\Users\Samsung\.gradle\caches\transforms-3\3d9df55f0043a4c93771c8c8330e388b\transformed\jetified-zpns-2.4.0\AndroidManifest.xml:119:25-82
+616            </intent-filter>
+617        </service> <!-- OPPO推送 -->
+618        <!-- VIVO push应用定义消息receiver声明 -->
+619        <receiver
+619-->[im.zego:zpns:2.4.0] C:\Users\Samsung\.gradle\caches\transforms-3\3d9df55f0043a4c93771c8c8330e388b\transformed\jetified-zpns-2.4.0\AndroidManifest.xml:126:9-134:20
+620            android:name="im.zego.zpns.internal.receiver.VivoMessageReceiver"
+620-->[im.zego:zpns:2.4.0] C:\Users\Samsung\.gradle\caches\transforms-3\3d9df55f0043a4c93771c8c8330e388b\transformed\jetified-zpns-2.4.0\AndroidManifest.xml:127:13-78
+621            android:exported="false" >
+621-->[im.zego:zpns:2.4.0] C:\Users\Samsung\.gradle\caches\transforms-3\3d9df55f0043a4c93771c8c8330e388b\transformed\jetified-zpns-2.4.0\AndroidManifest.xml:128:13-37
+622            <intent-filter>
+622-->[im.zego:zpns:2.4.0] C:\Users\Samsung\.gradle\caches\transforms-3\3d9df55f0043a4c93771c8c8330e388b\transformed\jetified-zpns-2.4.0\AndroidManifest.xml:129:13-133:29
+623
+624                <!-- 接收push消息 -->
+625                <action android:name="com.vivo.pushclient.action.RECEIVE" />
+625-->[im.zego:zpns:2.4.0] C:\Users\Samsung\.gradle\caches\transforms-3\3d9df55f0043a4c93771c8c8330e388b\transformed\jetified-zpns-2.4.0\AndroidManifest.xml:132:17-77
+625-->[im.zego:zpns:2.4.0] C:\Users\Samsung\.gradle\caches\transforms-3\3d9df55f0043a4c93771c8c8330e388b\transformed\jetified-zpns-2.4.0\AndroidManifest.xml:132:25-74
+626            </intent-filter>
+627        </receiver>
+628
+629        <service
+629-->[im.zego:zpns:2.4.0] C:\Users\Samsung\.gradle\caches\transforms-3\3d9df55f0043a4c93771c8c8330e388b\transformed\jetified-zpns-2.4.0\AndroidManifest.xml:136:9-139:71
+630            android:name="com.vivo.push.sdk.service.CommandClientService"
+630-->[im.zego:zpns:2.4.0] C:\Users\Samsung\.gradle\caches\transforms-3\3d9df55f0043a4c93771c8c8330e388b\transformed\jetified-zpns-2.4.0\AndroidManifest.xml:137:13-74
+631            android:exported="true"
+631-->[im.zego:zpns:2.4.0] C:\Users\Samsung\.gradle\caches\transforms-3\3d9df55f0043a4c93771c8c8330e388b\transformed\jetified-zpns-2.4.0\AndroidManifest.xml:138:13-36
+632            android:permission="com.push.permission.UPSTAGESERVICE" />
+632-->[im.zego:zpns:2.4.0] C:\Users\Samsung\.gradle\caches\transforms-3\3d9df55f0043a4c93771c8c8330e388b\transformed\jetified-zpns-2.4.0\AndroidManifest.xml:139:13-68
+633    </application>
+634
+635</manifest>

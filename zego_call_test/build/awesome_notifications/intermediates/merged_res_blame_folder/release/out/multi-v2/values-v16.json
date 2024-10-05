@@ -1,0 +1,72 @@
+{
+    "logs": [
+        {
+            "outputFile": "me.carda.awesome_notifications-merged_res-40:/values-v16/values-v16.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Samsung\\.gradle\\caches\\transforms-3\\40754c2447d60908b414acb7db96ca78\\transformed\\appcompat-1.6.1\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "223"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "121",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "289"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Samsung\\.gradle\\caches\\transforms-3\\aa4c36bf6a798ad8d30354984dd6823e\\transformed\\core-1.9.0\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "me.carda.awesome_notifications-mergeReleaseResources-38:/values-v16/values-v16.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Samsung\\.gradle\\caches\\transforms-3\\40754c2447d60908b414acb7db96ca78\\transformed\\appcompat-1.6.1\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "223"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "121",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "289"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Samsung\\.gradle\\caches\\transforms-3\\aa4c36bf6a798ad8d30354984dd6823e\\transformed\\core-1.9.0\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                }
+            ]
+        }
+    ]
+}

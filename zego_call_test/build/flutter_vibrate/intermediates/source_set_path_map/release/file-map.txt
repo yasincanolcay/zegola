@@ -1,0 +1,12 @@
+flutter.plugins.vibrate.flutter_vibrate-jetified-window-java-1.0.0-beta04-0 C:\Users\Samsung\.gradle\caches\transforms-3\2f9f080e2bb0cffecc45f245f2053cbd\transformed\jetified-window-java-1.0.0-beta04\res
+flutter.plugins.vibrate.flutter_vibrate-core-1.6.0-1 C:\Users\Samsung\.gradle\caches\transforms-3\62951aee7b733d4949db7586e532a4c0\transformed\core-1.6.0\res
+flutter.plugins.vibrate.flutter_vibrate-jetified-window-1.0.0-beta04-2 C:\Users\Samsung\.gradle\caches\transforms-3\6e92227e54e359c441cc86ea2dbc847e\transformed\jetified-window-1.0.0-beta04\res
+flutter.plugins.vibrate.flutter_vibrate-jetified-annotation-experimental-1.1.0-3 C:\Users\Samsung\.gradle\caches\transforms-3\d58dd672128dc8a6c0836f8b0e99c08e\transformed\jetified-annotation-experimental-1.1.0\res
+flutter.plugins.vibrate.flutter_vibrate-main-4 C:\Users\Samsung\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_vibrate-1.3.0\android\src\main\res
+flutter.plugins.vibrate.flutter_vibrate-release-5 C:\Users\Samsung\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_vibrate-1.3.0\android\src\release\res
+flutter.plugins.vibrate.flutter_vibrate-pngs-6 C:\flutterprojelerim\zego_call_test\build\flutter_vibrate\generated\res\pngs\release
+flutter.plugins.vibrate.flutter_vibrate-resValues-7 C:\flutterprojelerim\zego_call_test\build\flutter_vibrate\generated\res\resValues\release
+flutter.plugins.vibrate.flutter_vibrate-rs-8 C:\flutterprojelerim\zego_call_test\build\flutter_vibrate\generated\res\rs\release
+flutter.plugins.vibrate.flutter_vibrate-mergeReleaseResources-9 C:\flutterprojelerim\zego_call_test\build\flutter_vibrate\intermediates\incremental\release\mergeReleaseResources\merged.dir
+flutter.plugins.vibrate.flutter_vibrate-mergeReleaseResources-10 C:\flutterprojelerim\zego_call_test\build\flutter_vibrate\intermediates\incremental\release\mergeReleaseResources\stripped.dir
+flutter.plugins.vibrate.flutter_vibrate-merged_res-11 C:\flutterprojelerim\zego_call_test\build\flutter_vibrate\intermediates\merged_res\release

@@ -1,0 +1,36 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.flutter.logs.plogs.flutter_logs-merged_res-32:/values-v22/values-v22.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Samsung\\.gradle\\caches\\transforms-3\\220ce7807dedd1d0d45387dc914e901c\\transformed\\appcompat-1.5.1\\res\\values-v22\\values-v22.xml",
+                    "from": {
+                        "startLines": "2,3,4,9",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,130,217,487",
+                        "endLines": "2,3,8,13",
+                        "endColumns": "74,86,12,12",
+                        "endOffsets": "125,212,482,764"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.flutter.logs.plogs.flutter_logs-mergeReleaseResources-30:/values-v22/values-v22.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Samsung\\.gradle\\caches\\transforms-3\\220ce7807dedd1d0d45387dc914e901c\\transformed\\appcompat-1.5.1\\res\\values-v22\\values-v22.xml",
+                    "from": {
+                        "startLines": "2,3,4,9",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,130,217,487",
+                        "endLines": "2,3,8,13",
+                        "endColumns": "74,86,12,12",
+                        "endOffsets": "125,212,482,764"
+                    }
+                }
+            ]
+        }
+    ]
+}

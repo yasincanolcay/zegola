@@ -1,0 +1,12 @@
+com.github.rmtmckenzie.native_device_orientation-jetified-window-java-1.0.0-beta04-0 C:\Users\Samsung\.gradle\caches\transforms-3\2f9f080e2bb0cffecc45f245f2053cbd\transformed\jetified-window-java-1.0.0-beta04\res
+com.github.rmtmckenzie.native_device_orientation-core-1.6.0-1 C:\Users\Samsung\.gradle\caches\transforms-3\62951aee7b733d4949db7586e532a4c0\transformed\core-1.6.0\res
+com.github.rmtmckenzie.native_device_orientation-jetified-window-1.0.0-beta04-2 C:\Users\Samsung\.gradle\caches\transforms-3\6e92227e54e359c441cc86ea2dbc847e\transformed\jetified-window-1.0.0-beta04\res
+com.github.rmtmckenzie.native_device_orientation-jetified-annotation-experimental-1.1.0-3 C:\Users\Samsung\.gradle\caches\transforms-3\d58dd672128dc8a6c0836f8b0e99c08e\transformed\jetified-annotation-experimental-1.1.0\res
+com.github.rmtmckenzie.native_device_orientation-main-4 C:\Users\Samsung\AppData\Local\Pub\Cache\hosted\pub.dev\native_device_orientation-1.2.1\android\src\main\res
+com.github.rmtmckenzie.native_device_orientation-release-5 C:\Users\Samsung\AppData\Local\Pub\Cache\hosted\pub.dev\native_device_orientation-1.2.1\android\src\release\res
+com.github.rmtmckenzie.native_device_orientation-pngs-6 C:\flutterprojelerim\zego_call_test\build\native_device_orientation\generated\res\pngs\release
+com.github.rmtmckenzie.native_device_orientation-resValues-7 C:\flutterprojelerim\zego_call_test\build\native_device_orientation\generated\res\resValues\release
+com.github.rmtmckenzie.native_device_orientation-rs-8 C:\flutterprojelerim\zego_call_test\build\native_device_orientation\generated\res\rs\release
+com.github.rmtmckenzie.native_device_orientation-mergeReleaseResources-9 C:\flutterprojelerim\zego_call_test\build\native_device_orientation\intermediates\incremental\release\mergeReleaseResources\merged.dir
+com.github.rmtmckenzie.native_device_orientation-mergeReleaseResources-10 C:\flutterprojelerim\zego_call_test\build\native_device_orientation\intermediates\incremental\release\mergeReleaseResources\stripped.dir
+com.github.rmtmckenzie.native_device_orientation-merged_res-11 C:\flutterprojelerim\zego_call_test\build\native_device_orientation\intermediates\merged_res\release

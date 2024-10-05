@@ -1,0 +1,12 @@
+com.tekartik.sqflite-jetified-window-java-1.0.0-beta04-0 C:\Users\Samsung\.gradle\caches\transforms-3\2f9f080e2bb0cffecc45f245f2053cbd\transformed\jetified-window-java-1.0.0-beta04\res
+com.tekartik.sqflite-core-1.6.0-1 C:\Users\Samsung\.gradle\caches\transforms-3\62951aee7b733d4949db7586e532a4c0\transformed\core-1.6.0\res
+com.tekartik.sqflite-jetified-window-1.0.0-beta04-2 C:\Users\Samsung\.gradle\caches\transforms-3\6e92227e54e359c441cc86ea2dbc847e\transformed\jetified-window-1.0.0-beta04\res
+com.tekartik.sqflite-jetified-annotation-experimental-1.1.0-3 C:\Users\Samsung\.gradle\caches\transforms-3\d58dd672128dc8a6c0836f8b0e99c08e\transformed\jetified-annotation-experimental-1.1.0\res
+com.tekartik.sqflite-main-4 C:\Users\Samsung\AppData\Local\Pub\Cache\hosted\pub.dev\sqflite-2.3.2\android\src\main\res
+com.tekartik.sqflite-release-5 C:\Users\Samsung\AppData\Local\Pub\Cache\hosted\pub.dev\sqflite-2.3.2\android\src\release\res
+com.tekartik.sqflite-pngs-6 C:\flutterprojelerim\zego_call_test\build\sqflite\generated\res\pngs\release
+com.tekartik.sqflite-resValues-7 C:\flutterprojelerim\zego_call_test\build\sqflite\generated\res\resValues\release
+com.tekartik.sqflite-rs-8 C:\flutterprojelerim\zego_call_test\build\sqflite\generated\res\rs\release
+com.tekartik.sqflite-mergeReleaseResources-9 C:\flutterprojelerim\zego_call_test\build\sqflite\intermediates\incremental\release\mergeReleaseResources\merged.dir
+com.tekartik.sqflite-mergeReleaseResources-10 C:\flutterprojelerim\zego_call_test\build\sqflite\intermediates\incremental\release\mergeReleaseResources\stripped.dir
+com.tekartik.sqflite-merged_res-11 C:\flutterprojelerim\zego_call_test\build\sqflite\intermediates\merged_res\release

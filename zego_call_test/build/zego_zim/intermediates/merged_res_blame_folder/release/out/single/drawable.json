@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "im.zego.zim_flutter.zego_zim-merged_res-10:/drawable/notification_bg_low.xml",
+        "source": "im.zego.zim_flutter.zego_zim-core-1.6.0-1:/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "im.zego.zim_flutter.zego_zim-merged_res-10:/drawable/notification_tile_bg.xml",
+        "source": "im.zego.zim_flutter.zego_zim-core-1.6.0-1:/drawable/notification_tile_bg.xml"
+    },
+    {
+        "merged": "im.zego.zim_flutter.zego_zim-merged_res-10:/drawable/notification_bg.xml",
+        "source": "im.zego.zim_flutter.zego_zim-core-1.6.0-1:/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "im.zego.zim_flutter.zego_zim-merged_res-10:/drawable/notification_icon_background.xml",
+        "source": "im.zego.zim_flutter.zego_zim-core-1.6.0-1:/drawable/notification_icon_background.xml"
+    }
+]

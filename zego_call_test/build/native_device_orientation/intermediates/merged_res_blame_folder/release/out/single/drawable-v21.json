@@ -1,0 +1,6 @@
+[
+    {
+        "merged": "com.github.rmtmckenzie.native_device_orientation-merged_res-10:/drawable-v21/notification_action_background.xml",
+        "source": "com.github.rmtmckenzie.native_device_orientation-core-1.6.0-1:/drawable-v21/notification_action_background.xml"
+    }
+]

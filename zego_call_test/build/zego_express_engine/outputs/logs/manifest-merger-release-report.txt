@@ -1,0 +1,59 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Samsung\AppData\Local\Pub\Cache\hosted\pub.dev\zego_express_engine-3.16.0\android\src\main\AndroidManifest.xml:1:1-22:12
+INJECTED from C:\Users\Samsung\AppData\Local\Pub\Cache\hosted\pub.dev\zego_express_engine-3.16.0\android\src\main\AndroidManifest.xml:1:1-22:12
+INJECTED from C:\Users\Samsung\AppData\Local\Pub\Cache\hosted\pub.dev\zego_express_engine-3.16.0\android\src\main\AndroidManifest.xml:1:1-22:12
+	package
+		ADDED from C:\Users\Samsung\AppData\Local\Pub\Cache\hosted\pub.dev\zego_express_engine-3.16.0\android\src\main\AndroidManifest.xml:2:3-40
+		INJECTED from C:\Users\Samsung\AppData\Local\Pub\Cache\hosted\pub.dev\zego_express_engine-3.16.0\android\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Samsung\AppData\Local\Pub\Cache\hosted\pub.dev\zego_express_engine-3.16.0\android\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Samsung\AppData\Local\Pub\Cache\hosted\pub.dev\zego_express_engine-3.16.0\android\src\main\AndroidManifest.xml:1:11-69
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from C:\Users\Samsung\AppData\Local\Pub\Cache\hosted\pub.dev\zego_express_engine-3.16.0\android\src\main\AndroidManifest.xml:3:3-74
+	android:name
+		ADDED from C:\Users\Samsung\AppData\Local\Pub\Cache\hosted\pub.dev\zego_express_engine-3.16.0\android\src\main\AndroidManifest.xml:3:20-72
+application
+ADDED from C:\Users\Samsung\AppData\Local\Pub\Cache\hosted\pub.dev\zego_express_engine-3.16.0\android\src\main\AndroidManifest.xml:5:3-21:17
+activity#im.zego.internal.screencapture.ZegoScreenCaptureManager$ZegoScreenCaptureAssistantActivity
+ADDED from C:\Users\Samsung\AppData\Local\Pub\Cache\hosted\pub.dev\zego_express_engine-3.16.0\android\src\main\AndroidManifest.xml:6:5-11:60
+	android:screenOrientation
+		ADDED from C:\Users\Samsung\AppData\Local\Pub\Cache\hosted\pub.dev\zego_express_engine-3.16.0\android\src\main\AndroidManifest.xml:10:9-45
+	android:exported
+		ADDED from C:\Users\Samsung\AppData\Local\Pub\Cache\hosted\pub.dev\zego_express_engine-3.16.0\android\src\main\AndroidManifest.xml:8:9-33
+	android:configChanges
+		ADDED from C:\Users\Samsung\AppData\Local\Pub\Cache\hosted\pub.dev\zego_express_engine-3.16.0\android\src\main\AndroidManifest.xml:9:9-55
+	android:theme
+		ADDED from C:\Users\Samsung\AppData\Local\Pub\Cache\hosted\pub.dev\zego_express_engine-3.16.0\android\src\main\AndroidManifest.xml:11:9-57
+	android:name
+		ADDED from C:\Users\Samsung\AppData\Local\Pub\Cache\hosted\pub.dev\zego_express_engine-3.16.0\android\src\main\AndroidManifest.xml:7:9-114
+service#im.zego.internal.screencapture.ZegoScreenCaptureService
+ADDED from C:\Users\Samsung\AppData\Local\Pub\Cache\hosted\pub.dev\zego_express_engine-3.16.0\android\src\main\AndroidManifest.xml:12:5-20:15
+	android:enabled
+		ADDED from C:\Users\Samsung\AppData\Local\Pub\Cache\hosted\pub.dev\zego_express_engine-3.16.0\android\src\main\AndroidManifest.xml:14:9-31
+	android:exported
+		ADDED from C:\Users\Samsung\AppData\Local\Pub\Cache\hosted\pub.dev\zego_express_engine-3.16.0\android\src\main\AndroidManifest.xml:15:9-33
+	android:foregroundServiceType
+		ADDED from C:\Users\Samsung\AppData\Local\Pub\Cache\hosted\pub.dev\zego_express_engine-3.16.0\android\src\main\AndroidManifest.xml:16:9-56
+	android:name
+		ADDED from C:\Users\Samsung\AppData\Local\Pub\Cache\hosted\pub.dev\zego_express_engine-3.16.0\android\src\main\AndroidManifest.xml:13:9-79
+intent-filter#action:name:android.intent.action.screenshare
+ADDED from C:\Users\Samsung\AppData\Local\Pub\Cache\hosted\pub.dev\zego_express_engine-3.16.0\android\src\main\AndroidManifest.xml:17:9-19:25
+action#android.intent.action.screenshare
+ADDED from C:\Users\Samsung\AppData\Local\Pub\Cache\hosted\pub.dev\zego_express_engine-3.16.0\android\src\main\AndroidManifest.xml:18:13-72
+	android:name
+		ADDED from C:\Users\Samsung\AppData\Local\Pub\Cache\hosted\pub.dev\zego_express_engine-3.16.0\android\src\main\AndroidManifest.xml:18:21-69
+uses-sdk
+INJECTED from C:\Users\Samsung\AppData\Local\Pub\Cache\hosted\pub.dev\zego_express_engine-3.16.0\android\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Samsung\AppData\Local\Pub\Cache\hosted\pub.dev\zego_express_engine-3.16.0\android\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Samsung\AppData\Local\Pub\Cache\hosted\pub.dev\zego_express_engine-3.16.0\android\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Samsung\AppData\Local\Pub\Cache\hosted\pub.dev\zego_express_engine-3.16.0\android\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Samsung\AppData\Local\Pub\Cache\hosted\pub.dev\zego_express_engine-3.16.0\android\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\Samsung\AppData\Local\Pub\Cache\hosted\pub.dev\zego_express_engine-3.16.0\android\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Samsung\AppData\Local\Pub\Cache\hosted\pub.dev\zego_express_engine-3.16.0\android\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Samsung\AppData\Local\Pub\Cache\hosted\pub.dev\zego_express_engine-3.16.0\android\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Samsung\AppData\Local\Pub\Cache\hosted\pub.dev\zego_express_engine-3.16.0\android\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Samsung\AppData\Local\Pub\Cache\hosted\pub.dev\zego_express_engine-3.16.0\android\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Samsung\AppData\Local\Pub\Cache\hosted\pub.dev\zego_express_engine-3.16.0\android\src\main\AndroidManifest.xml

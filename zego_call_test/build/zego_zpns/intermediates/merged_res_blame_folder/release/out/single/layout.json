@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "im.zego.zpns_flutter.zego_zpns-merged_res-12:/layout/notification_template_icon_group.xml",
+        "source": "im.zego.zpns_flutter.zego_zpns-core-1.6.0-3:/layout/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "im.zego.zpns_flutter.zego_zpns-merged_res-12:/layout/notification_action_tombstone.xml",
+        "source": "im.zego.zpns_flutter.zego_zpns-core-1.6.0-3:/layout/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "im.zego.zpns_flutter.zego_zpns-merged_res-12:/layout/custom_dialog.xml",
+        "source": "im.zego.zpns_flutter.zego_zpns-core-1.6.0-3:/layout/custom_dialog.xml"
+    },
+    {
+        "merged": "im.zego.zpns_flutter.zego_zpns-merged_res-12:/layout/notification_action.xml",
+        "source": "im.zego.zpns_flutter.zego_zpns-core-1.6.0-3:/layout/notification_action.xml"
+    },
+    {
+        "merged": "im.zego.zpns_flutter.zego_zpns-merged_res-12:/layout/notification_template_part_chronometer.xml",
+        "source": "im.zego.zpns_flutter.zego_zpns-core-1.6.0-3:/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "im.zego.zpns_flutter.zego_zpns-merged_res-12:/layout/notification_template_part_time.xml",
+        "source": "im.zego.zpns_flutter.zego_zpns-core-1.6.0-3:/layout/notification_template_part_time.xml"
+    }
+]

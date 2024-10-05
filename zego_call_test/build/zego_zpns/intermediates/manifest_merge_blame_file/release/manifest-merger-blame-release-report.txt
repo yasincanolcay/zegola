@@ -1,0 +1,45 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="im.zego.zpns_flutter" >
+4
+5    <uses-sdk
+6        android:minSdkVersion="19"
+6-->C:\Users\Samsung\AppData\Local\Pub\Cache\hosted\pub.dev\zego_zpns-2.4.0\android\src\main\AndroidManifest.xml
+7        android:targetSdkVersion="31" />
+7-->C:\Users\Samsung\AppData\Local\Pub\Cache\hosted\pub.dev\zego_zpns-2.4.0\android\src\main\AndroidManifest.xml
+8
+9    <application>
+9-->C:\Users\Samsung\AppData\Local\Pub\Cache\hosted\pub.dev\zego_zpns-2.4.0\android\src\main\AndroidManifest.xml:4:5-24:19
+10        <service
+10-->C:\Users\Samsung\AppData\Local\Pub\Cache\hosted\pub.dev\zego_zpns-2.4.0\android\src\main\AndroidManifest.xml:5:9-8:72
+11            android:name="im.zego.zpns_flutter.internal.utils.ZPNsMessagingBackgroundService"
+11-->C:\Users\Samsung\AppData\Local\Pub\Cache\hosted\pub.dev\zego_zpns-2.4.0\android\src\main\AndroidManifest.xml:6:13-74
+12            android:exported="false"
+12-->C:\Users\Samsung\AppData\Local\Pub\Cache\hosted\pub.dev\zego_zpns-2.4.0\android\src\main\AndroidManifest.xml:7:13-37
+13            android:permission="android.permission.BIND_JOB_SERVICE" />
+13-->C:\Users\Samsung\AppData\Local\Pub\Cache\hosted\pub.dev\zego_zpns-2.4.0\android\src\main\AndroidManifest.xml:8:13-69
+14
+15        <receiver
+15-->C:\Users\Samsung\AppData\Local\Pub\Cache\hosted\pub.dev\zego_zpns-2.4.0\android\src\main\AndroidManifest.xml:9:9-17:20
+16            android:name="im.zego.zpns_flutter.internal.ZPNsPluginEventHandler"
+16-->C:\Users\Samsung\AppData\Local\Pub\Cache\hosted\pub.dev\zego_zpns-2.4.0\android\src\main\AndroidManifest.xml:10:13-80
+17            android:enabled="true"
+17-->C:\Users\Samsung\AppData\Local\Pub\Cache\hosted\pub.dev\zego_zpns-2.4.0\android\src\main\AndroidManifest.xml:11:13-35
+18            android:exported="true" >
+18-->C:\Users\Samsung\AppData\Local\Pub\Cache\hosted\pub.dev\zego_zpns-2.4.0\android\src\main\AndroidManifest.xml:12:13-36
+19            <intent-filter>
+19-->C:\Users\Samsung\AppData\Local\Pub\Cache\hosted\pub.dev\zego_zpns-2.4.0\android\src\main\AndroidManifest.xml:14:13-16:29
+20                <action android:name="im.zego.zim.zpns.intent.action.MESSAGE" />
+20-->C:\Users\Samsung\AppData\Local\Pub\Cache\hosted\pub.dev\zego_zpns-2.4.0\android\src\main\AndroidManifest.xml:15:17-81
+20-->C:\Users\Samsung\AppData\Local\Pub\Cache\hosted\pub.dev\zego_zpns-2.4.0\android\src\main\AndroidManifest.xml:15:25-78
+21            </intent-filter>
+22        </receiver>
+23
+24        <!-- 开发者可填写该配置指定额外原生层回调 -->
+25        <!-- <meta-data -->
+26        <!-- android:name="ZPNsBackgroundMessageHandlerClassPath" -->
+27        <!-- android:value="im.zego.zimexample.src.MyZpnsTest"/> -->
+28
+29    </application>
+30
+31</manifest>

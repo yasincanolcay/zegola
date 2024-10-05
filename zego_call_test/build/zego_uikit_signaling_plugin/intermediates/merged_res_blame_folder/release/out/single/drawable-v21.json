@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "com.zegocloud.uikit.flutter.signal_plugin.zego_uikit_signaling_plugin-merged_res-34:/drawable-v21/abc_action_bar_item_background_material.xml",
+        "source": "com.zegocloud.uikit.flutter.signal_plugin.zego_uikit_signaling_plugin-appcompat-1.5.1-7:/drawable-v21/abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "com.zegocloud.uikit.flutter.signal_plugin.zego_uikit_signaling_plugin-merged_res-34:/drawable-v21/abc_edit_text_material.xml",
+        "source": "com.zegocloud.uikit.flutter.signal_plugin.zego_uikit_signaling_plugin-appcompat-1.5.1-7:/drawable-v21/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "com.zegocloud.uikit.flutter.signal_plugin.zego_uikit_signaling_plugin-merged_res-34:/drawable-v21/abc_btn_colored_material.xml",
+        "source": "com.zegocloud.uikit.flutter.signal_plugin.zego_uikit_signaling_plugin-appcompat-1.5.1-7:/drawable-v21/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "com.zegocloud.uikit.flutter.signal_plugin.zego_uikit_signaling_plugin-merged_res-34:/drawable-v21/notification_action_background.xml",
+        "source": "com.zegocloud.uikit.flutter.signal_plugin.zego_uikit_signaling_plugin-core-1.9.0-20:/drawable-v21/notification_action_background.xml"
+    },
+    {
+        "merged": "com.zegocloud.uikit.flutter.signal_plugin.zego_uikit_signaling_plugin-merged_res-34:/drawable-v21/abc_dialog_material_background.xml",
+        "source": "com.zegocloud.uikit.flutter.signal_plugin.zego_uikit_signaling_plugin-appcompat-1.5.1-7:/drawable-v21/abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "com.zegocloud.uikit.flutter.signal_plugin.zego_uikit_signaling_plugin-merged_res-34:/drawable-v21/abc_list_divider_material.xml",
+        "source": "com.zegocloud.uikit.flutter.signal_plugin.zego_uikit_signaling_plugin-appcompat-1.5.1-7:/drawable-v21/abc_list_divider_material.xml"
+    }
+]

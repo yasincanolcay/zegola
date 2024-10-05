@@ -1,0 +1,12 @@
+im.zego.zim_flutter.zego_zim-jetified-window-java-1.0.0-beta04-0 C:\Users\Samsung\.gradle\caches\transforms-3\2f9f080e2bb0cffecc45f245f2053cbd\transformed\jetified-window-java-1.0.0-beta04\res
+im.zego.zim_flutter.zego_zim-core-1.6.0-1 C:\Users\Samsung\.gradle\caches\transforms-3\62951aee7b733d4949db7586e532a4c0\transformed\core-1.6.0\res
+im.zego.zim_flutter.zego_zim-jetified-window-1.0.0-beta04-2 C:\Users\Samsung\.gradle\caches\transforms-3\6e92227e54e359c441cc86ea2dbc847e\transformed\jetified-window-1.0.0-beta04\res
+im.zego.zim_flutter.zego_zim-jetified-annotation-experimental-1.1.0-3 C:\Users\Samsung\.gradle\caches\transforms-3\d58dd672128dc8a6c0836f8b0e99c08e\transformed\jetified-annotation-experimental-1.1.0\res
+im.zego.zim_flutter.zego_zim-main-4 C:\Users\Samsung\AppData\Local\Pub\Cache\hosted\pub.dev\zego_zim-2.10.0+4\android\src\main\res
+im.zego.zim_flutter.zego_zim-release-5 C:\Users\Samsung\AppData\Local\Pub\Cache\hosted\pub.dev\zego_zim-2.10.0+4\android\src\release\res
+im.zego.zim_flutter.zego_zim-pngs-6 C:\flutterprojelerim\zego_call_test\build\zego_zim\generated\res\pngs\release
+im.zego.zim_flutter.zego_zim-resValues-7 C:\flutterprojelerim\zego_call_test\build\zego_zim\generated\res\resValues\release
+im.zego.zim_flutter.zego_zim-rs-8 C:\flutterprojelerim\zego_call_test\build\zego_zim\generated\res\rs\release
+im.zego.zim_flutter.zego_zim-mergeReleaseResources-9 C:\flutterprojelerim\zego_call_test\build\zego_zim\intermediates\incremental\release\mergeReleaseResources\merged.dir
+im.zego.zim_flutter.zego_zim-mergeReleaseResources-10 C:\flutterprojelerim\zego_call_test\build\zego_zim\intermediates\incremental\release\mergeReleaseResources\stripped.dir
+im.zego.zim_flutter.zego_zim-merged_res-11 C:\flutterprojelerim\zego_call_test\build\zego_zim\intermediates\merged_res\release

@@ -1,0 +1,17 @@
+io.flutter.plugins.firebase.auth.firebase_auth-jetified-window-java-1.0.0-beta04-0 C:\Users\Samsung\.gradle\caches\transforms-3\2f9f080e2bb0cffecc45f245f2053cbd\transformed\jetified-window-java-1.0.0-beta04\res
+io.flutter.plugins.firebase.auth.firebase_auth-jetified-play-services-basement-18.1.0-1 C:\Users\Samsung\.gradle\caches\transforms-3\6011f626cf32d1124e40965bf7a3647c\transformed\jetified-play-services-basement-18.1.0\res
+io.flutter.plugins.firebase.auth.firebase_auth-core-1.6.0-2 C:\Users\Samsung\.gradle\caches\transforms-3\62951aee7b733d4949db7586e532a4c0\transformed\core-1.6.0\res
+io.flutter.plugins.firebase.auth.firebase_auth-jetified-window-1.0.0-beta04-3 C:\Users\Samsung\.gradle\caches\transforms-3\6e92227e54e359c441cc86ea2dbc847e\transformed\jetified-window-1.0.0-beta04\res
+io.flutter.plugins.firebase.auth.firebase_auth-browser-1.4.0-4 C:\Users\Samsung\.gradle\caches\transforms-3\6eba1c2a8589c2fda3f7852ee7b24229\transformed\browser-1.4.0\res
+io.flutter.plugins.firebase.auth.firebase_auth-jetified-firebase-common-20.4.2-5 C:\Users\Samsung\.gradle\caches\transforms-3\a03b342155d2fe06ebf9977478021bf4\transformed\jetified-firebase-common-20.4.2\res
+io.flutter.plugins.firebase.auth.firebase_auth-jetified-play-services-base-18.0.1-6 C:\Users\Samsung\.gradle\caches\transforms-3\afd5ab762f0c3c484ada89a729bf0cb2\transformed\jetified-play-services-base-18.0.1\res
+io.flutter.plugins.firebase.auth.firebase_auth-jetified-annotation-experimental-1.1.0-7 C:\Users\Samsung\.gradle\caches\transforms-3\d58dd672128dc8a6c0836f8b0e99c08e\transformed\jetified-annotation-experimental-1.1.0\res
+io.flutter.plugins.firebase.auth.firebase_auth-main-8 C:\Users\Samsung\AppData\Local\Pub\Cache\hosted\pub.dev\firebase_auth-4.16.0\android\src\main\res
+io.flutter.plugins.firebase.auth.firebase_auth-release-9 C:\Users\Samsung\AppData\Local\Pub\Cache\hosted\pub.dev\firebase_auth-4.16.0\android\src\release\res
+io.flutter.plugins.firebase.auth.firebase_auth-pngs-10 C:\flutterprojelerim\zego_call_test\build\firebase_auth\generated\res\pngs\release
+io.flutter.plugins.firebase.auth.firebase_auth-resValues-11 C:\flutterprojelerim\zego_call_test\build\firebase_auth\generated\res\resValues\release
+io.flutter.plugins.firebase.auth.firebase_auth-rs-12 C:\flutterprojelerim\zego_call_test\build\firebase_auth\generated\res\rs\release
+io.flutter.plugins.firebase.auth.firebase_auth-mergeReleaseResources-13 C:\flutterprojelerim\zego_call_test\build\firebase_auth\intermediates\incremental\release\mergeReleaseResources\merged.dir
+io.flutter.plugins.firebase.auth.firebase_auth-mergeReleaseResources-14 C:\flutterprojelerim\zego_call_test\build\firebase_auth\intermediates\incremental\release\mergeReleaseResources\stripped.dir
+io.flutter.plugins.firebase.auth.firebase_auth-merged_res-15 C:\flutterprojelerim\zego_call_test\build\firebase_auth\intermediates\merged_res\release
+io.flutter.plugins.firebase.auth.firebase_auth-packaged_res-16 C:\flutterprojelerim\zego_call_test\build\firebase_core\intermediates\packaged_res\release

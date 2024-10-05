@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "com.zegocloud.uikit.flutter.signal_plugin.zego_uikit_signaling_plugin-merged_res-34:/interpolator/btn_checkbox_unchecked_mtrl_animation_interpolator_0.xml",
+        "source": "com.zegocloud.uikit.flutter.signal_plugin.zego_uikit_signaling_plugin-appcompat-1.5.1-7:/interpolator/btn_checkbox_unchecked_mtrl_animation_interpolator_0.xml"
+    },
+    {
+        "merged": "com.zegocloud.uikit.flutter.signal_plugin.zego_uikit_signaling_plugin-merged_res-34:/interpolator/btn_checkbox_checked_mtrl_animation_interpolator_0.xml",
+        "source": "com.zegocloud.uikit.flutter.signal_plugin.zego_uikit_signaling_plugin-appcompat-1.5.1-7:/interpolator/btn_checkbox_checked_mtrl_animation_interpolator_0.xml"
+    },
+    {
+        "merged": "com.zegocloud.uikit.flutter.signal_plugin.zego_uikit_signaling_plugin-merged_res-34:/interpolator/btn_radio_to_off_mtrl_animation_interpolator_0.xml",
+        "source": "com.zegocloud.uikit.flutter.signal_plugin.zego_uikit_signaling_plugin-appcompat-1.5.1-7:/interpolator/btn_radio_to_off_mtrl_animation_interpolator_0.xml"
+    },
+    {
+        "merged": "com.zegocloud.uikit.flutter.signal_plugin.zego_uikit_signaling_plugin-merged_res-34:/interpolator/fast_out_slow_in.xml",
+        "source": "com.zegocloud.uikit.flutter.signal_plugin.zego_uikit_signaling_plugin-appcompat-1.5.1-7:/interpolator/fast_out_slow_in.xml"
+    },
+    {
+        "merged": "com.zegocloud.uikit.flutter.signal_plugin.zego_uikit_signaling_plugin-merged_res-34:/interpolator/btn_checkbox_unchecked_mtrl_animation_interpolator_1.xml",
+        "source": "com.zegocloud.uikit.flutter.signal_plugin.zego_uikit_signaling_plugin-appcompat-1.5.1-7:/interpolator/btn_checkbox_unchecked_mtrl_animation_interpolator_1.xml"
+    },
+    {
+        "merged": "com.zegocloud.uikit.flutter.signal_plugin.zego_uikit_signaling_plugin-merged_res-34:/interpolator/btn_radio_to_on_mtrl_animation_interpolator_0.xml",
+        "source": "com.zegocloud.uikit.flutter.signal_plugin.zego_uikit_signaling_plugin-appcompat-1.5.1-7:/interpolator/btn_radio_to_on_mtrl_animation_interpolator_0.xml"
+    },
+    {
+        "merged": "com.zegocloud.uikit.flutter.signal_plugin.zego_uikit_signaling_plugin-merged_res-34:/interpolator/btn_checkbox_checked_mtrl_animation_interpolator_1.xml",
+        "source": "com.zegocloud.uikit.flutter.signal_plugin.zego_uikit_signaling_plugin-appcompat-1.5.1-7:/interpolator/btn_checkbox_checked_mtrl_animation_interpolator_1.xml"
+    }
+]

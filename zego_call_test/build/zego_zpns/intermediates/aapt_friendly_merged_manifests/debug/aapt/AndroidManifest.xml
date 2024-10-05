@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="im.zego.zpns_flutter" >
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="31" />
+
+    <application>
+        <service
+            android:name="im.zego.zpns_flutter.internal.utils.ZPNsMessagingBackgroundService"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+
+        <receiver
+            android:name="im.zego.zpns_flutter.internal.ZPNsPluginEventHandler"
+            android:enabled="true"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="im.zego.zim.zpns.intent.action.MESSAGE" />
+            </intent-filter>
+        </receiver>
+
+        <!-- 开发者可填写该配置指定额外原生层回调 -->
+        <!-- <meta-data -->
+        <!-- android:name="ZPNsBackgroundMessageHandlerClassPath" -->
+        <!-- android:value="im.zego.zimexample.src.MyZpnsTest"/> -->
+
+    </application>
+
+</manifest>

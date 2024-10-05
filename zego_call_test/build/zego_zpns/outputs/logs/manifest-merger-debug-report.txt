@@ -1,0 +1,49 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Samsung\AppData\Local\Pub\Cache\hosted\pub.dev\zego_zpns-2.4.0\android\src\main\AndroidManifest.xml:1:1-27:12
+INJECTED from C:\Users\Samsung\AppData\Local\Pub\Cache\hosted\pub.dev\zego_zpns-2.4.0\android\src\main\AndroidManifest.xml:1:1-27:12
+INJECTED from C:\Users\Samsung\AppData\Local\Pub\Cache\hosted\pub.dev\zego_zpns-2.4.0\android\src\main\AndroidManifest.xml:1:1-27:12
+	package
+		ADDED from C:\Users\Samsung\AppData\Local\Pub\Cache\hosted\pub.dev\zego_zpns-2.4.0\android\src\main\AndroidManifest.xml:2:5-35
+		INJECTED from C:\Users\Samsung\AppData\Local\Pub\Cache\hosted\pub.dev\zego_zpns-2.4.0\android\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Samsung\AppData\Local\Pub\Cache\hosted\pub.dev\zego_zpns-2.4.0\android\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Samsung\AppData\Local\Pub\Cache\hosted\pub.dev\zego_zpns-2.4.0\android\src\main\AndroidManifest.xml:1:11-69
+application
+ADDED from C:\Users\Samsung\AppData\Local\Pub\Cache\hosted\pub.dev\zego_zpns-2.4.0\android\src\main\AndroidManifest.xml:4:5-24:19
+service#im.zego.zpns_flutter.internal.utils.ZPNsMessagingBackgroundService
+ADDED from C:\Users\Samsung\AppData\Local\Pub\Cache\hosted\pub.dev\zego_zpns-2.4.0\android\src\main\AndroidManifest.xml:5:9-8:72
+	android:exported
+		ADDED from C:\Users\Samsung\AppData\Local\Pub\Cache\hosted\pub.dev\zego_zpns-2.4.0\android\src\main\AndroidManifest.xml:7:13-37
+	android:permission
+		ADDED from C:\Users\Samsung\AppData\Local\Pub\Cache\hosted\pub.dev\zego_zpns-2.4.0\android\src\main\AndroidManifest.xml:8:13-69
+	android:name
+		ADDED from C:\Users\Samsung\AppData\Local\Pub\Cache\hosted\pub.dev\zego_zpns-2.4.0\android\src\main\AndroidManifest.xml:6:13-74
+receiver#im.zego.zpns_flutter.internal.ZPNsPluginEventHandler
+ADDED from C:\Users\Samsung\AppData\Local\Pub\Cache\hosted\pub.dev\zego_zpns-2.4.0\android\src\main\AndroidManifest.xml:9:9-17:20
+	android:enabled
+		ADDED from C:\Users\Samsung\AppData\Local\Pub\Cache\hosted\pub.dev\zego_zpns-2.4.0\android\src\main\AndroidManifest.xml:11:13-35
+	android:exported
+		ADDED from C:\Users\Samsung\AppData\Local\Pub\Cache\hosted\pub.dev\zego_zpns-2.4.0\android\src\main\AndroidManifest.xml:12:13-36
+	android:name
+		ADDED from C:\Users\Samsung\AppData\Local\Pub\Cache\hosted\pub.dev\zego_zpns-2.4.0\android\src\main\AndroidManifest.xml:10:13-80
+intent-filter#action:name:im.zego.zim.zpns.intent.action.MESSAGE
+ADDED from C:\Users\Samsung\AppData\Local\Pub\Cache\hosted\pub.dev\zego_zpns-2.4.0\android\src\main\AndroidManifest.xml:14:13-16:29
+action#im.zego.zim.zpns.intent.action.MESSAGE
+ADDED from C:\Users\Samsung\AppData\Local\Pub\Cache\hosted\pub.dev\zego_zpns-2.4.0\android\src\main\AndroidManifest.xml:15:17-81
+	android:name
+		ADDED from C:\Users\Samsung\AppData\Local\Pub\Cache\hosted\pub.dev\zego_zpns-2.4.0\android\src\main\AndroidManifest.xml:15:25-78
+uses-sdk
+INJECTED from C:\Users\Samsung\AppData\Local\Pub\Cache\hosted\pub.dev\zego_zpns-2.4.0\android\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Samsung\AppData\Local\Pub\Cache\hosted\pub.dev\zego_zpns-2.4.0\android\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Samsung\AppData\Local\Pub\Cache\hosted\pub.dev\zego_zpns-2.4.0\android\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Samsung\AppData\Local\Pub\Cache\hosted\pub.dev\zego_zpns-2.4.0\android\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Samsung\AppData\Local\Pub\Cache\hosted\pub.dev\zego_zpns-2.4.0\android\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\Samsung\AppData\Local\Pub\Cache\hosted\pub.dev\zego_zpns-2.4.0\android\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Samsung\AppData\Local\Pub\Cache\hosted\pub.dev\zego_zpns-2.4.0\android\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Samsung\AppData\Local\Pub\Cache\hosted\pub.dev\zego_zpns-2.4.0\android\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Samsung\AppData\Local\Pub\Cache\hosted\pub.dev\zego_zpns-2.4.0\android\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Samsung\AppData\Local\Pub\Cache\hosted\pub.dev\zego_zpns-2.4.0\android\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Samsung\AppData\Local\Pub\Cache\hosted\pub.dev\zego_zpns-2.4.0\android\src\main\AndroidManifest.xml
